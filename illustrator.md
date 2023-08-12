@@ -108,3 +108,64 @@ Las imágenes de mapa de bits están formadas por píxeles y son adecuadas para 
 En términos de calidad y escalabilidad, las imágenes vectoriales son superiores a las imágenes de mapa de bits. Las imágenes vectoriales pueden ser escaladas a cualquier tamaño sin perder calidad, mientras que las imágenes de mapa de bits pierden calidad al ser escaladas. 
 
 Espero que esto te haya ayudado. ¿Hay algo más en lo que pueda ayudarte?
+
+
+Barra de menús.
+Es la barra superior desde la que se despliegan los menüs como Archivo o Edición. Esta barra es comün a
+la mayoria de las aplicaciones Windows, por Io que ya conocerås su funcionamiento.
+Panel de herramientas.
+En el lateral izquierdo encontramos este panel, que agrupa las herramientas de dibujo, edici6n, etc.
+Algunas herramientas aparecen agrupadas en un mismo icono, el cual se diferencia por tener un
+triangulito en su esquina inferior derecha. Para desplegarlas hay que mantener pulsado el ratön unos
+segundos. También podemos acceder a sus propiedades haciendo doble clic.
+Panel de control.
+En esta barra, situada debajo de la Barra de menüs, aparecen opciones propias del objeto que tengamos
+seleccionado. Por Io que estas opciones variarån segün el tipo de objeto. También podemos referirnos a
+ella como Barra de opciones.
+Paneles.
+Los paneles o paletas, normalmente situados a la derecha, muestranun grupo de opciones y propiedades
+relacionadas, como puede ser el Navegador, Color o Pinceles. Pueden estar agrupados en el Menü o
+Grupo de paneles o podemos encontrarlos flotantes, y aparecer apilados o acoplados. Todos los paneles
+se pueden agregar desde el menü Ventana.
+Ventana del documento.
+Cada uno de los documentos aparece en una ventana, que podemos minimizar, maximizar o cerrar. En la
+esquina izquierda de esta ventana encontramos el Zoom para aumentar o disminuir el documento.
+También es denominada Ventana de ilustraciån.
+Dentro de esta ventana podemos encontrar otros elementos. Los principales son la mesa de trabajo, que
+indica el tamafio de la pågina en la que se imprimirå el documento, y el årea de recorte, que delimita la
+parte del documento que se exportarå o publicarå.
+
+
+
+La Barra de Menüs tiene como prop6sito facilitar
+el acceso a las distintas utilidades del programa.
+Es similar a la de cualquier Otro programa de disefio web o gråfico, aunque tiene algunas particularidades. Los principales Submenüs a los que se puede acceder
+son:
+Archivo: Permite crear nuevos archivos, abrirlos, permite distintas opciones de guardado .También permite configurar la impresiön de las påginas, imprimirlas.
+
+
+Edición: Es el clásico menú que te permite cortar, copiar, pegar... tanto objetos como dibujos; También permite editar colores, el diccionario y realizar ajustes; personalizar algunas de las opciones más comunes del programa.
+
+
+objeto: Todos los dibujos que aparecen en un documento de Illustrator son objetos. Todos los objetos se crean a partir de trazados elementales. En este sentido, el trazado abierto o cerrado es el objeto més båsico de Illustrator. La finalidad de los objetos es que puedan editarse, es decir, puedan cambiarse su propiedades sin necesidad de volver a dibujar los trazados que lo forman. Los objetos se pueden expandir, es decir, dividirlos en los distintos objetos que componen su apariencia para modificar otros atributos y propiedades de elementos determinados. Al expandir un objeto, éste se convierte en Otro objeto perdiéndose las posibilidades de ediciön del primer objeto, pero manteniendo la apariencia.
+Hay muchos tipos de objetos. Desde las opciones del menü Objeto (imagen derecha) podemos crear y editar diversos objetos:
+
+Texto: Las funciones de texto son uno de los aspectos mås importantes de Adobe Illustrator. Puede aöadir una sola linea de texto a la ilustraciön, crear columnas y filas de texto, hacer que el texto adopte una forma o siga un trazado, y trabajar con formas de letras como si fuesen objetos gråficos. Las fuentes y los ajustes disponibles en Illustrator para interlineado y espaciado antes y después de los pårrafos son algunas de las opciones con las que cuenta para modificar eI aspecto del texto de la ilustraciån.
+
+
+Seleccionar: Los comandos de selecciön permiten seleccionar o deseleccionar råpidamente todos los objetos, y seleccionar objetos segün su posiciön respecto a otros objetos. Puede seleccionar todos los objetos de un tipo determinado o que compartan atributos concretos y guardar o cargar las selecciones. También puede seleccionar todos los objetos de la mesa de trabajo activa.
+
+Efecto: En el menü Efecto encontramos muchas posibilidades de diseöo que se pueden aplicar a los trazados. Al aplicar un efecto, éste se muestra en el panel Apariencia, donde aparece una linea que lo indica. Estos efectos pueden ser editados haciendo clic sobre esa linea de texto. AI hacerlo se despliega el panel del efecto correspondiente, permitiendo ser modificado.
+
+Ver: Además de los tipicos Zooms, te permite varias opciones de previsualizaciön, reglas y cuadriculas,edicion de vistas
+entre otros submenüs.
+
+
+Ventana: Este menü, ademås de las opciones clåsicas acerca de como distribuir las ventanas, incluye accesos directos
+a todos los paneles y también Ia posibilidad de crear tus propios Espacios de Trabajo, guardarlos, cargarlos, etc.
+
+Panel de herramientas.
+En el lateral izquierdo encontramos este panel, que agrupa las herramientas de dibujo, ediciön, etc.
+Algunas herramientas aparecen agrupadas en un mismo icono, el cual se diferencia por tener un
+triangulito en su esquina inferior derecha. Para desplegarlas hay que mantener pulsado el ratön unos
+segundos. También podemos acceder a sus propiedades haciendo doble clic.
