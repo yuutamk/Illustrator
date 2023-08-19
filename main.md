@@ -1,7 +1,12 @@
-**Índice**   
-1. [Illustrator](#illustrator)
-2. [Interfaz](#interface)
-3. [Manejo de objetos](#MObjetos)
+# **Índice**   
+1.  [Illustrator](#illustrator)
+    - [diferencias entre Illustrator y otras](#diferencias)
+    - [diferencias clave entre imágenes vectoriales e imágenes de mapa de bits](#diferencias-img-vectorial)
+2.  [Interfaz](#interface)
+3.  [Manejo de objetos](#objetos)
+    - [Seleccionar objetos](#seleccion-objeto)
+    - [Aislar objetos](#aislar-objetos)
+    - [Agrupaciones](#agrupaciones)
 
 
 # Illustrator<a name="illustrator"></a>
@@ -13,7 +18,7 @@ Adobe Illustrator es una aplicación de gráficos vectoriales estándar del sect
 La importancia de Adobe Illustrator en el diseño gráfico radica en que permite trabajar con gráficos vectoriales, uno de los formatos gráficos más utilizados en el diseño. Los gráficos vectoriales son imágenes que se crean a partir de líneas y formas geométricas y no pierden calidad al ser escalados o modificados. Esto significa que los diseños creados con Illustrator pueden ser escalados a cualquier tamaño sin perder calidad y son ideales para diseños que requieren precisión y detalles complejos.
 
 
-### las diferencias entre Illustrator y otras herramientas de diseño, como Photoshop.
+### las diferencias entre Illustrator y otras herramientas de diseño, como Photoshop.<a name="diferencias"></a>
 
 Adobe Illustrator y Photoshop son dos herramientas de diseño diferentes que se utilizan para diferentes propósitos como por ejemplo:
 
@@ -27,7 +32,7 @@ Adobe Illustrator es una herramienta de diseño vectorial que se utiliza para cr
 
 ![](./src/img/logoDesign.jpg)
 
-### las diferencias clave entre imágenes vectoriales e imágenes de mapa de bits.
+### las diferencias clave entre imágenes vectoriales e imágenes de mapa de bits.<a name="diferencias-img-vectorial"></a>
 
 La principal distinción entre las imágenes vectoriales y las imágenes de mapa de bits radica en su estructura fundamental. Las imágenes de mapa de bits están compuestas por diminutos puntos llamados píxeles, siendo el píxel la unidad básica que se combina para formar una imagen completa. Por otro lado, las imágenes vectoriales se construyen a partir de líneas y curvas que se fusionan para dar forma a la imagen.
 
@@ -113,7 +118,7 @@ En el lateral izquierdo encontramos este panel, que agrupa las herramientas de d
 
 ![](./src/img/barra-de-herramientas.png)
 
-# Manejo de objetos<a name="MObjetos"></a>
+# Manejo de objetos<a name="objetos"></a>
 
 El dibujo de objetos en Illustrator es una tarea que, si bien tiene diversas características dependiendo de la herramienta utilizada, resulta bastante sencilla. Por ejemplo, para dibujar un rectángulo, basta con seleccionar la herramienta del mismo nombre <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_rectangulo.gif" alt="" width="37" height="30">, o pulsar su abreviatura (M), luego hacer clic con el botón izquierdo del ratón sin soltarlo para establecer uno de sus vértices, desplazar el ratón por la mesa de trabajo y luego soltarlo en el lugar donde quedará el vértice opuesto.
 
@@ -129,7 +134,7 @@ Pero primero, conoceremos su manejo, ya que a los objetos los podemos agrupar, s
 
 Veamos pues el manejo de objetos en Illustrator, para luego facilitar el trabajo de su construcción, disposición en la mesa de trabajo y edición, entre otras posibilidades.
 
-### Seleccionar objetos
+### Seleccionar objetos<a name="seleccion-objeto"></a>
 
 Para modificar un objeto, cambiar sus propiedades, eliminarlo... en definitiva, para trabajar con él, lo primero que debemos de hacer es seleccionarlo.
 
@@ -178,7 +183,7 @@ Una vez establecida la propiedad a considerar, podemos hacer clic en, por ejempl
 
 ![](https://www.aulaclic.es/illustrator-cc/graficos/seleccion05.png)
 
-### Aislar objetos
+### Aislar objetos<a name="aislar-objetos"></a>
 
 En ocasiones, la edición de un objeto puede llegar a complicarse por la presencia de muchos objetos cercanos. Un error al hacer clic y manipular el ratón puede modificar un objeto no deseado. Para ello tenemos como alternativa la opción **Aislar trazado seleccionado** en el menú contextual.
 
@@ -190,7 +195,7 @@ Para que esta opción aparezca, debemos primero seleccionar el objeto a aislar. 
 
 Para concluir el aislamiento de objeto y volver al trabajo con el resto de la ilustración, simplemente pulsamos la tecla *Esc*.
 
-### Agrupaciones
+### Agrupaciones<a name="agrupaciones"></a>
 
 A medida que intentemos hacer dibujos más complejos, descubriremos que necesitamos que varios objetos formen uno sólo. Esto lo conseguimos a través de la **agrupación**. Al agrupar varios objetos, podemos tratarlos como una unidad. Podemos seleccionar todos a la vez, redimensionarlos conservando la proporción entre ellos, etc...
 
