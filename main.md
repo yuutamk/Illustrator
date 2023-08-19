@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     .floating-menu {
       position: fixed;
       top: 50px; /* Ajusta esta propiedad según tu preferencia */
@@ -9,7 +9,7 @@
       box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     }
   </style>
-  
+   -->
   <div class="floating-menu">
     <h2>Menu</h2>
     <ul>
@@ -232,3 +232,27 @@ En el menú encontramos también la opción inversa, **Desagrupar**. Este comand
 
 ### Seleccionar objetos agrupados
 
+Si necesitamos seleccionar un único elemento dentro de un grupo, no es necesario desagruparlo. Basta con hacer doble clic con la herramienta Selección Selección para entrar en el modo de aislamiento que ya mencionamos. Esto hace que los objetos que no pertenezcan al grupo se muestren atenuados, y no podamos seleccionarlos, pero sí los componentes del grupo, ya sean objetos u otros grupos. Si el objeto está en un subgrupo, podemos ir haciendo doble clic hasta llegar al grupo del objeto.
+
+Modo aislamiento
+
+Si añadimos elementos al grupo aislado los nuevos objetos quedarán integrados en el grupo.
+
+Para salir del asilamiento, basta con volver a hacer doble clic fuera del grupo.
+
+Esto es útil cuando queremos editar el grupo, y la disposición de los elementos dentro de él. Pero para editar un único objeto, es más rápido utilizar las herramientas de selección que hemos visto, Selección directa Selección directa, Varita mágica Varita mágica y Lazo Lazo. Estas herramientas seleccionan los objetos independientemente de los grupos.
+
+Agrupada con Selección directa, encontramos la herramienta Selección de grupos Selección de grupos. Al hacer clic sobre un objeto con esta herramienta, lo seleccionaremos. Si volvemos a hacer clic, seleccionaremos el grupo que lo contiene. Con el siguiente clic, seleccionaremos el grupo que contenga a éste, y así sucesivamente, del grupo menor al mayor.
+
+3.5. Apilar objetos
+ 
+
+De manera predeterminada, cada objeto nuevo dibujado se posiciona sobre el resto de los objetos ya existentes. La superposición de los objetos depende entonces del orden de apilamiento de los mismos conforme los vamos creando. Para modificar el orden de apilamiento de un objeto seleccionado, utilizamos las opciones del menú Objeto → Organizar.
+
+
+
+
+
+Sin embargo, este modo de modificar el apilamiento de los objetos puede llegar a tornarse incómodo cuando hay un gran número de objetos apilados.
+
+Una manera alternativa de organizar los objetos, no sólo por el apilamiento, sino también por sus caracteríticas, es ubicarlos en capas.
