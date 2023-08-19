@@ -1,22 +1,21 @@
 <details>
-  <summary>Tabla de contenidos</summary>
+  <summary>Índice</summary>
 
-  * [Sección 1](#seccion-1)
-  * [Sección 2](#seccion-2)
-  * [Sección 3](#seccion-3)
-</details>
-
-
-
-# **Índice**   
-1.  [Illustrator](#illustrator)
-    - [diferencias entre Illustrator y otras](#diferencias)
-    - [diferencias clave entre imágenes vectoriales e imágenes de mapa de bits](#diferencias-img-vectorial)
+  1.  [Illustrator](#illustrator)
+         - [diferencias entre Illustrator y otras](#diferencias)
+        - [diferencias clave entre imágenes vectoriales e imágenes de mapa de bits](#diferencias-img-vectorial)
 2.  [Interfaz](#interface)
 3.  [Manejo de objetos](#objetos)
     - [Seleccionar objetos](#seleccion-objeto)
     - [Aislar objetos](#aislar-objetos)
     - [Agrupaciones](#agrupaciones)
+</details>
+
+[**Abrir Menú Flotante**](/floating_menu.html)
+
+
+  
+
 
 
 # Illustrator<a name="illustrator"></a>
