@@ -45,26 +45,26 @@ Las principales características de las imágenes vectoriales son:
 
 ![](./src/img/InterfazInicial.png)
 
-## Barra de menús:
+### Barra de menús:
 Es la barra superior desde la que se despliegan los menús, como Archivo o Edición. Esta barra es común a la mayoría de las aplicaciones Windows, por lo que ya conocerás su funcionamiento.
 
-## Panel de herramientas:
+### Panel de herramientas:
 En el lateral izquierdo encontramos este panel, que agrupa las herramientas de dibujo, edición, etc. Algunas herramientas aparecen agrupadas en un mismo icono, el cual se diferencia por tener un triangulito en su esquina inferior derecha. Para desplegarlas, hay que mantener pulsado el ratón unos segundos. También podemos acceder a sus propiedades haciendo doble clic.
 
-## Panel de control:
+### Panel de control:
 En esta barra, situada debajo de la Barra de menús, aparecen opciones propias del objeto que tengamos seleccionado. Por lo que estas opciones variarán según el tipo de objeto. También podemos referirnos a ella como Barra de opciones.
 
-## Paneles:
+### Paneles:
 Los paneles o paletas, normalmente situados a la derecha, muestran un grupo de opciones y propiedades relacionadas, como puede ser el Navegador, Color o Pinceles. Pueden estar agrupados en el Menú o Grupo de paneles, o podemos encontrarlos flotantes, y aparecer apilados o acoplados. Todos los paneles se pueden agregar desde el menú Ventana.
 
-## Ventana del documento:
+### Ventana del documento:
 Cada uno de los documentos aparece en una ventana, que podemos minimizar, maximizar o cerrar. En la esquina izquierda de esta ventana encontramos el Zoom para aumentar o disminuir el documento. También es denominada Ventana de ilustración.  
 Dentro de esta ventana, podemos encontrar otros elementos. Los principales son la mesa de trabajo, que indica el tamaño de la página en la que se imprimirá el documento, y el área de recorte, que delimita la parte del documento que se exportará o publicará.
 
 
 ![](./src/img/partes_Illustrator.png)
 
-## Barra de menús
+### Barra de menús
 
 La Barra de Menús tiene como propósito facilitar el acceso a las distintas utilidades del programa. Es similar a la de cualquier otro programa de diseño web o gráfico, aunque tiene algunas particularidades. Los principales submenús a los que se puede acceder son:
 
@@ -107,3 +107,96 @@ En el lateral izquierdo encontramos este panel, que agrupa las herramientas de d
 
 ![](./src/img/barra-de-herramientas.png)
 
+# Manejo de objetos
+
+El dibujo de objetos en Illustrator es una tarea que, si bien tiene diversas características dependiendo de la herramienta utilizada, resulta bastante sencilla. Por ejemplo, para dibujar un rectángulo, basta con seleccionar la herramienta del mismo nombre <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_rectangulo.gif" alt="" width="37" height="30">, o pulsar su abreviatura (M), luego hacer clic con el botón izquierdo del ratón sin soltarlo para establecer uno de sus vértices, desplazar el ratón por la mesa de trabajo y luego soltarlo en el lugar donde quedará el vértice opuesto.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_dib_rectan.png)
+
+Una vez dibujado el rectángulo será un objeto con determinadas propiedades, como su anchura, altura, grosor de trazo y propiedades de relleno, que pueden ser no sólo el color, sino también su nivel de opacidad. Para que un objeto sea visible en la mesa de trabajo, asegúrate que tenga un grosor de trazo, color del mismo, así como color de relleno. Estas tres propiedades puedes establecerlas antes de crear cualquier objeto usando los primeros tres controles del Panel de Control que, como ya vimos, está bajo la barra de menús.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/prop_basicas.png)
+
+Los objetos en Illustrator son los elementos que conformarán la ilustración y son independientes entre sí. Esto significa que podemos editarlos o incluso eliminarlos sin afectar a otros objetos en la misma ilustración, lo que le da una gran flexibilidad al programa en la creación de diseños. En las próximas unidades no sólo veremos los detalles de la creación de los diversos objetos de dibujo, sino también los de su edición.
+
+Pero primero, conoceremos su manejo, ya que a los objetos los podemos agrupar, seleccionar de diversas maneras, alinear, apilar, disponerlos en capas, etcétera.
+
+Veamos pues el manejo de objetos en Illustrator, para luego facilitar el trabajo de su construcción, disposición en la mesa de trabajo y edición, entre otras posibilidades.
+
+### Seleccionar objetos
+
+Para modificar un objeto, cambiar sus propiedades, eliminarlo... en definitiva, para trabajar con él, lo primero que debemos de hacer es seleccionarlo.
+
+Cuando uno o varios objetos están seleccionados, es a esos objetos a los que se le aplican propiedades que podamos cambiar, como el color, y son sus opciones las que se muestran en el Panel de control.
+
+La forma más simple de seleccionar un objeto es haciendo clic sobre él con la herramienta **Selección** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion.png" alt="Selección" width="36" height="23">, o trazando un cuadrado con esta herramienta que abarque total o parcialmente a todos los elementos a seleccionar.
+
+Cuando el objeto aparece seleccionado, podemos ver un recuadro que lo delimita. Si se trata de más de un objeto, entonces el recuadro los abarca.
+![](https://www.aulaclic.es/illustrator-cc/graficos/seleccion01.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/seleccion02.png)
+ 
+
+Observa que el cursor mostrará un cuadradito negro <img src="https://www.aulaclic.es/illustrator-cc/graficos/cursor_seleccionar_objeto.gif" alt="" width="16" height="17"> cuando lo situemos sobre un objeto que se puede seleccionar.
+
+Si queremos añadir objetos a la selección, basta con seleccionar los nuevos objetos manteniendo pulsada la tecla Mayúsc(shift). Si mientras pulsamos esta tecla, hacemos clic sobre un objeto ya seleccionado, se deseleccionará.
+
+Podemos utilizar esta herramienta sin cambiar la que estemos utilizando pulsando la tecla Ctrl.
+
+De forma muy parecida podemos seleccionar con la herramienta **Selección directa** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion_directa.png" alt="Selección directa" width="35" height="27">, aunque como ya veremos, esta herramienta está más enfocada a seleccionar puntos de ancla y segmentos. De cualquier modo, su uso es muy similar: podemos hacer clic sobre un objeto o dibujar un recuadro que toque uno o más objetos y éstos quedarán seleccionados. La diferencia es que no se mostrará un recuadro que los abarque, sino que cada objeto mostrará sus anclas y segmentos de trazo. En la siguiente imagen verás un objeto seleccionado por ambas herramientas, observarás fácilmente la diferencia.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/seleccion03.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/seleccion04.png) 
+
+
+Si queremos seleccionar varios objetos, pero al trazar un cuadrado con la herramienta selección, atrapamos más objetos de los deseados, podemos recurrir a la **herramienta Lazo** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_lazo.png" alt="Lazo" width="32" height="25">. Con esta herramienta, podemos dibujar el área de selección a mano alzada, y todos los objetos por los que pase, o que queden atrapados serán seleccionados.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_seleccion_lazo.gif)
+
+Pero para el ejemplo de la imagen, podemos utilizar también la herramienta **Varita mágica** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_varita.png" alt="Varita mágica"  width="32" height="25">. Esta herramienta selecciona automáticamente todos los objetos con los mismos atributos que sobre el que hagamos clic. En este caso, al pulsar sobre una estrella, se han seleccionado todas, aunque si por ejemplo, hubiese habido círculos con el mismo trazo y relleno que las estrellas también se habrían seleccionado. Si pulsamos la tecla Mayúsculas, sumamos las características del objeto sobre el que pulsemos a la selección. En este ejemplo, si pulsásemos sobre una bola roja con la tecla Mayús., quedarían seleccionadas todas las estrellas y todas las bolas rojas.
+
+Si hacemos doble clic sobre la herramienta **Varita mágica**, tendremos un panel que nos permite configurar su comportamiento. En él determinamos no sólo las propiedades similares que ha de buscar en otros objetos para incluirlos en la selección, sino que, además, podemos establecer el grado de tolerancia que ha de admitir en las semejanzas. Observa el panel.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_varita.png)
+
+A la izquierda marcamos las casillas de las propiedades a considerar, en tanto que en la caja de texto a la derecha, indicamos el porcentaje máximo de tolerancia a las discrepancias. Una tolerancia igual a cero hace que la varita mágica seleccione objetos con, por ejemplo, exactamente el mismo color de relleno que el objeto seleccionado. En tanto que una tolerancia igual a 100 equivale a seleccionar cualquier color de relleno. En nuestro ejemplo, al hacer clic en una estrella, tanto éstas como los círculos habrían quedado seleccionados.
+
+Otra alternativa es utilizar la **Selección por propiedades**.
+
+Observa la siguiente imagen.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/flores.png)
+
+Si pulsamos con la **Varita mágica** sobre un círculo negro, todos los círculos con ese relleno quedarán seleccionados (con selección directa), lo mismo si hacemos clic en los círculos morados, etcétera. Un método alternativo para conseguir los mismos resultados es configurar la herramienta de selección para seleccionar similares. Para ello debemos desplegar el menú del botón **Seleccionar objeto similares** que está en el Panel de control e indicar la propiedad por la que nuevos objetos serán seleccionados.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/seleccionar_similares.png)
+
+Una vez establecida la propiedad a considerar, podemos hacer clic en, por ejemplo, un círculo con relleno negro con la herramienta de selección y luego sobre el botón **Seleccionar objetos similares**. Todos los objetos que compartan la propiedad seleccionada con el objeto elegido, también quedarán seleccionados.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/seleccion05.png)
+
+### Aislar objetos
+
+En ocasiones, la edición de un objeto puede llegar a complicarse por la presencia de muchos objetos cercanos. Un error al hacer clic y manipular el ratón puede modificar un objeto no deseado. Para ello tenemos como alternativa la opción **Aislar trazado seleccionado** en el menú contextual.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/menu_aislar_objeto.png)
+
+Para que esta opción aparezca, debemos primero seleccionar el objeto a aislar. Luego pulsamos el botón derecho del ratón y seleccionamos la opción del menú contextual. El resto de los objetos aparecen entonces atenuados y no pueden ser seleccionados ni editados. Entonces podemos manipular libremente el objeto aislado sin temor a modificar accidentalmente algún otro.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/objeto_aislado.png)
+
+Para concluir el aislamiento de objeto y volver al trabajo con el resto de la ilustración, simplemente pulsamos la tecla *Esc*.
+
+### Agrupaciones
+
+A medida que intentemos hacer dibujos más complejos, descubriremos que necesitamos que varios objetos formen uno sólo. Esto lo conseguimos a través de la **agrupación**. Al agrupar varios objetos, podemos tratarlos como una unidad. Podemos seleccionar todos a la vez, redimensionarlos conservando la proporción entre ellos, etc...
+
+Para agrupar objetos, primero los seleccionamos y desde el menú emergente o el menú **Objeto**, seleccionamos **Agrupar** (Ctrl + G).
+
+![Menú Objeto --> Agrupar](https://www.aulaclic.es/illustrator-cc/graficos/menu_objeto_agrupar.gif)
+
+Si ahora intentas seleccionar un objeto del grupo como hemos visto hasta ahora, verás que se seleccionan todos.
+
+Podemos también seleccionar varios grupos y agruparlos de nuevo. Esto convertirá a los primero grupos en subgrupos de un grupo mayor. De esta forma podemos crear una jerarquía de grupos.
+
+En el menú encontramos también la opción inversa, **Desagrupar**. Este comando vuelve a separar los objetos del grupo. Si el objeto sobre el que ejecutamos esta acción pertenece a varios subgrupos, cada vez que pulsemos **Desagrupar** estaremos deshaciendo el grupo de mayor tamaño.
+
+
+### Seleccionar objetos agrupados
