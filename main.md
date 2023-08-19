@@ -1,20 +1,31 @@
-<details>
-  <summary>Índice</summary>
-
-  1.  [Illustrator](#illustrator)
-         - [diferencias entre Illustrator y otras](#diferencias)
-        - [diferencias clave entre imágenes vectoriales e imágenes de mapa de bits](#diferencias-img-vectorial)
-2.  [Interfaz](#interface)
-3.  [Manejo de objetos](#objetos)
-    - [Seleccionar objetos](#seleccion-objeto)
-    - [Aislar objetos](#aislar-objetos)
-    - [Agrupaciones](#agrupaciones)
-</details>
-
-[**Abrir Menú Flotante**](/floating_menu.html)
-
-
+<style>
+    .floating-menu {
+      position: fixed;
+      top: 50px; /* Ajusta esta propiedad según tu preferencia */
+      left: 20px; /* Ajusta esta propiedad según tu preferencia */
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
   
+  <div class="floating-menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="#illustrator">Illustrator</a>
+        <li><a href="#diferencias">diferencias entre Illustrator y otras</a></li>
+        <li><a href="#diferencias-img-vectorial">diferencias clave entre imágenes vectoriales e imágenes de mapa de bits</a></li>
+      </li>
+      <li><a href="#interface">Interfaz</a></li>
+      <li><a href="#objetos">Manejo de objetos</a>
+      <li><a href="#seleccion-objeto">Seleccionar objetos</a></li>
+      <li><a href="#aislar-objetos">Aislar objetos</a></li>
+      <li><a href="#agrupaciones">Agrupaciones</a></li>
+      </li>
+    </ul>
+  </div>
+
 
 
 
