@@ -1,3 +1,13 @@
+<details>
+  <summary>Tabla de contenidos</summary>
+
+  * [Sección 1](#seccion-1)
+  * [Sección 2](#seccion-2)
+  * [Sección 3](#seccion-3)
+</details>
+
+
+
 # **Índice**   
 1.  [Illustrator](#illustrator)
     - [diferencias entre Illustrator y otras](#diferencias)
