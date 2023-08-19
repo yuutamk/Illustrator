@@ -1,4 +1,10 @@
-# Illustrator
+**Índice**   
+1. [Illustrator](#illustrator)
+2. [Interfaz](#interface)
+3. [Manejo de objetos](#MObjetos)
+
+
+# Illustrator<a name="illustrator"></a>
 
 Adobe Illustrator es una aplicación de gráficos vectoriales estándar del sector que permite crear logotipos, iconos, dibujos, tipografías e ilustraciones complejas para cualquier medio. Es un editor gráfico vectorial desarrollado por Adobe, que se utiliza para crear una variedad de imágenes digitales e impresas, incluyendo dibujos animados, gráficos, diagramas, logotipos e ilustraciones.
 
@@ -41,7 +47,7 @@ Las principales características de las imágenes vectoriales son:
 
 - Precisión: Las imágenes vectoriales son ideales para diseños que requieren precisión y detalles complejos.
 
-# Interfaz
+# Interfaz<a name="interface"></a>
 
 ![](./src/img/InterfazInicial.png)
 
@@ -101,13 +107,13 @@ Hay muchos tipos de objetos. Desde las opciones del menú Objeto (imagen derecha
 
 ![](./src/img/menuVentana.png)
 
-## Panel de herramientas.
+### Panel de herramientas.
 
 En el lateral izquierdo encontramos este panel, que agrupa las herramientas de dibujo, edición, etc. Algunas herramientas aparecen agrupadas en un mismo icono, el cual se diferencia por tener un triangulito en su esquina inferior derecha. Para desplegarlas, hay que mantener pulsado el ratón unos segundos. También podemos acceder a sus propiedades haciendo doble clic.
 
 ![](./src/img/barra-de-herramientas.png)
 
-# Manejo de objetos
+# Manejo de objetos<a name="MObjetos"></a>
 
 El dibujo de objetos en Illustrator es una tarea que, si bien tiene diversas características dependiendo de la herramienta utilizada, resulta bastante sencilla. Por ejemplo, para dibujar un rectángulo, basta con seleccionar la herramienta del mismo nombre <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_rectangulo.gif" alt="" width="37" height="30">, o pulsar su abreviatura (M), luego hacer clic con el botón izquierdo del ratón sin soltarlo para establecer uno de sus vértices, desplazar el ratón por la mesa de trabajo y luego soltarlo en el lugar donde quedará el vértice opuesto.
 
@@ -200,3 +206,4 @@ En el menú encontramos también la opción inversa, **Desagrupar**. Este comand
 
 
 ### Seleccionar objetos agrupados
+
