@@ -232,24 +232,25 @@ En el menú encontramos también la opción inversa, **Desagrupar**. Este comand
 
 ### Seleccionar objetos agrupados
 
-Si necesitamos seleccionar un único elemento dentro de un grupo, no es necesario desagruparlo. Basta con hacer doble clic con la herramienta Selección Selección para entrar en el modo de aislamiento que ya mencionamos. Esto hace que los objetos que no pertenezcan al grupo se muestren atenuados, y no podamos seleccionarlos, pero sí los componentes del grupo, ya sean objetos u otros grupos. Si el objeto está en un subgrupo, podemos ir haciendo doble clic hasta llegar al grupo del objeto.
+Si necesitamos seleccionar un único elemento dentro de un grupo, no es necesario desagruparlo. Basta con hacer doble clic con la herramienta **Selección** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion.png" alt="Selección"  width="36" height="23"> para entrar en el **modo de aislamiento** que ya mencionamos. Esto hace que los objetos que no pertenezcan al grupo se muestren atenuados, y no podamos seleccionarlos, pero sí los componentes del grupo, ya sean objetos u otros grupos. Si el objeto está en un subgrupo, podemos ir haciendo doble clic hasta llegar al grupo del objeto.
 
-Modo aislamiento
+![Modo aislamiento](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_grupo_aislado.gif)
 
 Si añadimos elementos al grupo aislado los nuevos objetos quedarán integrados en el grupo.
 
 Para salir del asilamiento, basta con volver a hacer doble clic fuera del grupo.
 
-Esto es útil cuando queremos editar el grupo, y la disposición de los elementos dentro de él. Pero para editar un único objeto, es más rápido utilizar las herramientas de selección que hemos visto, Selección directa Selección directa, Varita mágica Varita mágica y Lazo Lazo. Estas herramientas seleccionan los objetos independientemente de los grupos.
+Esto es útil cuando queremos editar el grupo, y la disposición de los elementos dentro de él. Pero para editar un único objeto, es más rápido utilizar las herramientas de selección que hemos visto, **Selección directa** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion_directa.png" alt="Selección directa"  width="35" height="27">, **Varita mágica** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_varita.png" alt="Varita mágica"  width="32" height="25"> y **Lazo** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_lazo.png" alt="Lazo"  width="32" height="25">. Estas herramientas seleccionan los objetos independientemente de los grupos.
 
-Agrupada con Selección directa, encontramos la herramienta Selección de grupos Selección de grupos. Al hacer clic sobre un objeto con esta herramienta, lo seleccionaremos. Si volvemos a hacer clic, seleccionaremos el grupo que lo contiene. Con el siguiente clic, seleccionaremos el grupo que contenga a éste, y así sucesivamente, del grupo menor al mayor.
+Agrupada con **Selección directa**, encontramos la herramienta **Selección de grupos** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion_grupos.png" alt="Selección de grupos"  width="32" height="24">. Al hacer clic sobre un objeto con esta herramienta, lo seleccionaremos. Si volvemos a hacer clic, seleccionaremos el grupo que lo contiene. Con el siguiente clic, seleccionaremos el grupo que contenga a éste, y así sucesivamente, del grupo menor al mayor.
 
-3.5. Apilar objetos
+### Apilar objetos
  
 
-De manera predeterminada, cada objeto nuevo dibujado se posiciona sobre el resto de los objetos ya existentes. La superposición de los objetos depende entonces del orden de apilamiento de los mismos conforme los vamos creando. Para modificar el orden de apilamiento de un objeto seleccionado, utilizamos las opciones del menú Objeto → Organizar.
+De manera predeterminada, cada objeto nuevo dibujado se posiciona sobre el resto de los objetos ya existentes. La superposición de los objetos depende entonces del orden de apilamiento de los mismos conforme los vamos creando. Para modificar el orden de apilamiento de un objeto seleccionado, utilizamos las opciones del menú **Objeto** → **Organizar**.
 
-
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_menu_objeto_organizar.png)
+![](https://www.aulaclic.es/illustrator-cc/graficos/apilamiento0.png)
 
 
 
