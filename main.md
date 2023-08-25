@@ -10,21 +10,32 @@
     }
   </style>
    -->
-  <div class="floating-menu">
-    <h2>Menu</h2>
-    <ul>
-      <li><a href="#illustrator">Illustrator</a>
-        <li><a href="#diferencias">diferencias entre Illustrator y otras</a></li>
-        <li><a href="#diferencias-img-vectorial">diferencias clave entre imágenes vectoriales e imágenes de mapa de bits</a></li>
-      </li>
-      <li><a href="#interface">Interfaz</a></li>
-      <li><a href="#objetos">Manejo de objetos</a>
-      <li><a href="#seleccion-objeto">Seleccionar objetos</a></li>
-      <li><a href="#aislar-objetos">Aislar objetos</a></li>
-      <li><a href="#agrupaciones">Agrupaciones</a></li>
-      </li>
-    </ul>
-  </div>
+
+<details>
+<summary><h2>Menu</h2></summary>
+
+1. [Illustrator](#illustrator)
+2. [Diferencias entre Illustrator y otras](#diferencias)
+3. [Diferencias clave entre imágenes vectoriales e imágenes de mapa de bits](#diferencias-img-vectorial)
+4. [Interfaz](#interface)
+
+5. <details>
+    <summary><b>Manejo de objetos</b></summary>
+
+    - [Seleccionar objetos](#seleccion-objeto)
+    - [Aislar objetos](#aislar-objetos)
+    - [Agrupaciones](#agrupaciones)
+    - [Alinear y distribuir objetos](#alinear-objetos)
+    - [Expandir objetos](#expandir-objetos)
+    - [Ocultar y bloquear objetos](#ocultar-bloq-objetos)
+
+    </details>
+
+</details>
+
+
+
+
 
 
 
@@ -257,3 +268,94 @@ De manera predeterminada, cada objeto nuevo dibujado se posiciona sobre el resto
 Sin embargo, este modo de modificar el apilamiento de los objetos puede llegar a tornarse incómodo cuando hay un gran número de objetos apilados.
 
 Una manera alternativa de organizar los objetos, no sólo por el apilamiento, sino también por sus caracteríticas, es ubicarlos en capas.
+
+En un documento podemos crear varias capas. Las capas nos permiten trabajar con los elementos del documento en distintos niveles. Para hacernos una idea, podemos comparar las capas con una serie de láminas transparentes, en las que podemos dibujar de forma independiente, pero que si las superponemos vemos todas las láminas como un sólo dibujo. El orden de las capas determina el orden de los objetos. Esto hace que al superponer objetos de distintas capas, se muestre encima el objeto de la capa superior, y al fondo los de las capas inferiores. Por eso, se suele colocar los dibujos que forman el fondo de la ilustración en las capas de más bajo nivel.
+
+Esto nos facilita el trabajo sobre todo en documentos más complejos, pudiendo tener en la primera capa el fondo, en la segunda dibujos más detallados, etc.
+
+Para controlar las capas y movernos entre ellas, disponemos del panel Capas.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_capas3.png)
+
+En este panel encontramos todas las capas. Si no las creamos, sólo tendremos una. A la izquierda del nombre de cada capa, hay un triángulo que expande o contrae la capa, mostrando los objetos que contiene. A su vez, cada capa puede contener una o más subcapas y éstas nuevos objetos.
+
+A la izquierda tenemos dos columnas con iconos que pueden aparecer o desaparecer conforme hacemos clic: en la primera un ojo <img src="https://www.aulaclic.es/illustrator-cc/graficos/ic_pan_capas_ojo.gif" alt="ojo" width="14" height="14"> que al pulsarlo **oculta** o **muestra** la capa, y un candado <img src="https://www.aulaclic.es/illustrator-cc/graficos/ic_pan_capas_candado.gif" alt="candado" width="13" height="14" class="enlinea">, que la bloquea impidiendo su edición.
+
+Debajo, tenemos los controles que nos permiten crear o eliminar capas y subcapas. Haciendo doble clic sobre una capa, accedemos a sus propiedades, y podemos cambiar, por ejemplo, su nombre.
+
+Hay que tener en cuenta que cuando tengamos más de una capa y dibujemos, lo estaremos haciendo sobre la capa seleccionada, la que aparezca resaltada en azul.
+
+Por otra parte, podemos ubicar rápidamente un objeto en el panel de capas seleccionandolo en la ilustración y luego haciendo clic en el icono **Localizar objeto**, en la parte inferior del panel. Resaltará inmediatamente en el panel el objeto seleccionado, de modo que podremos ubicar la capa en la que se encuentra.
+
+### Alinear y distribuir objetos<a name="alinear-objetos"></a>
+
+Muchas veces nos encontraremos con la necesidad de organizar nuestros objetos de forma automática, por ejemplo, que todos queden centrados, alineados a la derecha, o distribuídos dejando el mismo espacio entre ellos. Para hacerlo, tenemos las opciones de alineación y distribución de objetos.
+
+Lo primero es seleccionar los objetos. Podemos utilizar los métodos de selección que hemos visto. Si queremos alinear o distribuir objetos, tomando uno como referencia, despues de haber seleccionado todos, volvemos a hacer clic sobre él. Esto lo convierte en el **Objeto clave**. Lo distinguimos porque queda enmarcado en un recuadro más grueso.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/objeto_clave.gif)
+
+Una vez seleccionados, utilizamos el **Panel de control** o el panel **Alinear**.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_alinear.gif)
+
+ * Alinear objetos.
+
+La alineación se puede hacer respecto a cualquiera de los cuatro lados del cuadro delimitador de un objeto, o a su centro en vertical u horizontal.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/objetos_alineados.gif)
+
+Para hacerlo, sólo hemos de pulsar el botón correspondiente. Si hemos marcado un objeto clave, el resto de objetos se alinearán con este. Si no, todos se alinearán al objeto más externo. Por ejemplo, si los alineamos a la izquierda, todos se alinearían con el objeto situado más a la izquierda, que no se movería.
+
+Centrar objetos horizontal y también verticalmente nos resultará muy útil cuando necesitemos hacer coincidir el centro de varios objetos.
+
+* Distribuir objetos.
+
+Al distribuir objetos, lo que hacemos es que la parte de los objetos a la que estamos distribuyendo, queden a la misma distancia. Por ejemplo, si distribuimos al lado derecho, entre el lado derecho de un objeto y el anterior, habrá la misma distancia que entre el objeto y el siguiente.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/objetos_distribuidos_izq.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/objetos_distribuidos_centro.gif)
+
+Distribuir objetos tiene sentido cuando hay más de dos, ya que los extremos se toman como referencia, y no se mueven.
+
+* Distribuir espaciado.
+
+Esta opción, distribuye los objetos dejando entre ellos el mismo espacio, sin tener en cuenta su anchura. Podemos distribuirlos horizontal y verticalmente, eligiendo **Auto**, lo que calculará automáticamente el espacio, tomando como referencia los extremos, o introducir un valor específico, lo que colocará los objetos a esa distancia del anterior, partiendo del objeto clave.
+
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/objetos_distribuidos_espaciado.gif)
+
+Cuando alineamos o distribuimos objetos a un lado, y estos tienen distinto grosor en el trazo, el comportamiento es distinto dependiendo de la opción Usar delimitadores de previsualización que encontramos en el menú del panel Alinear.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/menu_usar_delimitadores.png)
+
+Cuando está marcada, se toma como referencia el exterior de los bordes, y cuando está desmarcada, se toma como referencia el centro de los bordes (el contorno).
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/delimitadores_de_previs.gif)
+
+### Expandir objetos<a name="expandir-objetos"></a>
+
+Otra opción que puede resultarnos útil al crear nuestros dibujos es la de expandir. Esa opción divide el objeto original en objetos independientes, aunque los agrupa. Se crea un nuevo objeto por cada trazo que creó el objeto original.
+
+Para expandir un objeto, lo seleccionamos y en el menú **Objeto**, seleccionamos **Expandir**.
+
+![Menú Objeto --> Trasformar](https://www.aulaclic.es/illustrator-cc/graficos/menu_objeto_expandir.gif)
+
+
+
+En la siguiente imagen puedes ver un objeto simple, compuesto por un trazo y un relleno. Al expandirlo, hemos obtenido dos objetos, formados por el trazo y el relleno original.
+
+![Objeto expandido](https://www.aulaclic.es/illustrator-cc/graficos/dib_expandir1.gif)![Objetos expandidos seleccionados](https://www.aulaclic.es/illustrator-cc/graficos/dib_expandir2.gif)
+
+Esto nos ha permitido, tras desagruparlos, separar el relleno original del trazo original.
+
+A medida que avancemos en el curso veremos que el comando **Expandir** nos permite generar objetos a partir de efectos, o simplificar objetos compuestos.
+
+### Ocultar y bloquear objetos.<a name="ocultar-bloq-objetos"></a>
+
+Ya vimos que es posible ocultar capas y/o bloquearlas para evitar la visualización y/o edición de los objetos que contienen. También podemos bloquear y ocultar objetos individuales o agrupados independientemente de las capas. Sus efectos son los mismos: los objetos bloqueados u ocultos no se pueden seleccionar y, por tanto, tampoco editar.
+
+Para definir los objetos que se bloquearan u ocultarán usamos el menú **Objeto** → **Bloquear** y **Objeto** → **Ocultar**, ambos con las siguientes subopciones.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/menu_objeto_bloquear.png)
+![](https://www.aulaclic.es/illustrator-cc/graficos/menu_objeto_ocultar.png)
+
