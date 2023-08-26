@@ -523,3 +523,40 @@ Como recordarás de la unidad uno, en los ajustes iniciales de un documento sele
 
 Illustrator seleccionará el modo de color dependiendo del perfil que elijamos al crear un nuevo documento.
 
+### Selección y aplicación de colores
+
+En Illustrator tenemos múltiples formas de elegir un color. Podemos tomarlo de un objeto existente, especificar sus valores manualmente, usar selectores de color, o utilizar plantillas de color guardadas en nuestra biblioteca.
+
+* Panel Color. Es la opción que más hemos visto hasta ahora. Nos permite seleccionar entre el trazo y el relleno del objeto Selector <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_color_trazo-relleno.gif" alt="Selector trazo-relleno" width="31" height="31" class="enlinea">. En la parte inferior encontramos un selector de color con toda la gama de colores, y selectores individuales para cada uno de los colores primarios, dependiendo del modo de color seleccionado.
+
+![Panel color RGBPanel](https://www.aulaclic.es/illustrator-cc/graficos/panel_color02.png) ![color CMYK](https://www.aulaclic.es/illustrator-cc/graficos/panel_color_cmyk2.png)
+
+
+
+Al seleccionar un color, podemos encontrar dos tipos de icono: el icono <img src="https://www.aulaclic.es/illustrator-cc/graficos/ic_pan_color_fueraweb.gif" alt="" width="13" height="14" class="enlinea"> advierte que el color seleccionado no se encuentra dentro de los apropiados para web, y el icono <img src="https://www.aulaclic.es/illustrator-cc/graficos/ic_pan_color_fueragama.gif" alt="" width="15" height="15" class="enlinea"> que indica que el color está fuera de la gamas de colores soportada por el modo de color actual. Junto a cada icono, podemos seleccionar el color más parecido que sí cumple con la advertencia.
+
+Podemos cambiar el modo de color del panel desde el menú de opciones o propiedades, en su esquina superior derecha.
+
+![Propiedades del panel](https://www.aulaclic.es/illustrator-cc/graficos/panel_color_propiedades.gif)
+
+* Un uso muy similar es el que tiene el Selector de color, al que accedemos haciendo doble clic en el cuadro de selección de color del panel Color o de la Barra de herramientas.
+
+![Selector de color](https://www.aulaclic.es/illustrator-cc/graficos/selector_color2.png)
+
+Este panel nos permite ser más preciso, tanto en la selección de color "a ojo" como insertando directamente los valores en en las escalas CMYK, RGB o tono-saturación-brillo (HSB).
+
+La casilla Sólo colores Web nos limita la selección a aquellos colores que ser visualizan correctamente en los exploradores Web.
+
+En vez de seleccionar un modo de color, podemos seleccionar utilizando las Muestras de color, teniendo un botón para ello.
+
+* La herramienta Cuentagotas.
+
+Podemos seleccionar o asignar colores ya utilizados en el documento con la herramienta Cuentagotas <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_cuentagotas.png" alt="Cuentagotas" class="enlinea" width="30" height="24">. Al hacer clic sobre un objeto con esta herramienta, tomamos el color del objeto, tanto para el trazo como para el relleno. Y si teníamos un objeto seleccionado, tomará los nuevos colores.
+
+Si la utilizamos combinada con la tecla Alt, produce el efecto contrario. Es decir, asigna al objeto sobre el que pulsemos los colores de relleno y contorno seleccionados.
+
+* Guía de color.
+
+Una vez seleccionado un color, puede que queramos complementarlo con colores armónicos. En el panel Guía de color encontraremos colores relacionados con el seleccionado que nos facilitarán esta tarea.
+
+![Panel Guía de color](https://www.aulaclic.es/illustrator-cc/graficos/panel_guia_color.png)
