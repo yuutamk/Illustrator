@@ -430,3 +430,96 @@ El tamaño y ángulo de estas líneas determinan el tamaño del segmento curvo.
 En la imagen vemos dos trazados con tres puntos de ancla a la misma distancia. Lo único que se ha modificado es el ángulo y el tamaño de las líneas de dirección.
 
 En los **puntos suavizados** también encontramos líneas de dirección, pero unidas, ya que si modificamos el ángulo de una se modifica también el segmento continuo, para conservar la suavidad. En caso de que sea un punto de vértice en el extremo de una curva, podemos modificar estas líneas sin que modifique el segmento continuo.
+
+#  Color
+
+A través de los ojos, los seres humanos somos capaces de distinguir distintas amplitudes de onda en la luz que nos llega, lo que forma los colores. Dependiendo de la intensidad de las distintas amplitudes, obtenemos una amplia variedad de colores. El color blanco resulta de la mezcla del resto de colores a su máxima intensidad, y la ausencia de color la percibimos como negro.
+
+A la hora de intentar reproducir los colores partimos de tres colores primarios, los cuales, mezclados a distintas intensidades, proporcionan toda la paleta de colores que conocemos. Pero esto no se realiza igual si pretendemos crear una fuente de luz con un color determinado, como el monitor de ordenador, o un objeto que refleje la luz y se vea de uno u otro color, como la tinta impresa.
+
+* Colores aditivos.
+
+Mezcla de los colores primarios aditivos
+Los dispositivos, como monitores, televisores, pantallas en cámaras digitales, etc. tienen una fuente de luz propia. Pensemos en cada uno de los píxeles de la pantalla de un monitor. Cada píxel está dividido en tres subpíxeles con los colores aditivos primarios: <span style="color:#FF0000;font-weight:bold">rojo</span>, <span style="color:#00CC00; font-weight:bold">verde</span> y <span style="color:#0000FF;font-weight:bold">azul</span>.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/colores_aditivos.gif)
+
+Para obtener el resto de colores, basta con mezclar un haz de color de uno de estos colores, y un haz de cada uno de los otros colores primarios, a distintas intensidades. Por eso se denomina colores aditivos.
+
+Para poder definir cada uno de los colores resultantes, se usa principalmente el modelo de color RGB (del ingles red, green, blue; rojo, verde, azul). Este modelo indica la proporción de cada color que aparece en la mezcla, partiendo de 0 cuando no aparece.
+
+Normalmente, se utiliza un byte para definir cada uno de los colores primarios, lo que nos da más de 16 millones de combinaciones. Así podemos representar un color con un valor que indique la intensidad de cada primario, en forma porcentual (<span style="color:#FF0000;font-weight:bold">97%</span>, <span style="color:#00CC00; font-weight:bold">94%</span>, <span style="color:#0000FF;font-weight:bold">89%</span>) con valores entre 0% y 100%, decimal (<span style="color:#FF0000;font-weight:bold">247</span>, <span style="color:#00CC00; font-weight:bold">240</span>, <span style="color:#0000FF;font-weight:bold">226</span>) con valores entre 0 y 255, como se utiliza principalmente en Illustrator, o en formato hexadecimal (#F7F0E2, cada letra corresponde a un número a partir de 9: A=10, B=11... F=15) con valores entre 00 y FF, como se utiliza en la web normalmente. Esto nos permite definir los principales colores como vemos en esta tabla:
+
+<table border="1" cellpadding="5" style="margin-left:auto; margin-right:auto">
+    <tbody>
+      <tr>
+        <td valign="top">Rojo</td>
+        <td style="background-color: rgb(255, 0, 0); color: rgb(255, 255, 255);" valign="top">R:255, G:0, B:0</td>
+        <td valign="top">Magenta</td>
+        <td style="background: rgb(255, 0, 255);color: rgb(255, 255, 255)">R:255, G:0, B:255</td>
+      </tr>
+      <tr>
+        <td valign="top">Verde</td>
+        <td style="background: rgb(0, 255, 0);color: rgb(255, 255, 255)" valign="top">R:0, G:255, B:255</td>
+        <td valign="top">Amarillo</td>
+        <td style="background: rgb(255, 255, 0)" valign="top">R:255, G:255, B:0</td>
+      </tr>
+      <tr>
+        <td valign="top">Azul</td>
+        <td style="background: rgb(0, 0, 255); color: rgb(255, 255, 255);" valign="top">R:0, G:0, B:255</td>
+        <td valign="top">Cyan</td>
+        <td style="background: rgb(0, 255, 255)" valign="top">R:0, G:255, B:255</td>
+      </tr>
+    </tbody>
+  </table>
+El blanco puro se obtiene al mezclar todos los colores con intensidad máxima (R:255, G:255, B:255 o #FFFFFF), y el negro puro es la ausencia de todos ellos (R:0, G:0, B:0 o #000000). Cuando los tres colores tienen la misma intensidad, obtenemos grises, y si variamos la intensidad de la mezcla, pero manteniendo la proporcionalidad entre los tres colores, obtenemos distintos tonos de un color.
+
+<table border="1" cellpadding="5" style="margin-left:auto; margin-right:auto">
+    <tbody>
+      <tr>
+        <td style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" valign="top">#FFFFFF</td>
+        <td style="background-color: #DFDFDF; color: rgb(0, 0, 0);" valign="top">#DFDFDF</td>
+        <td style="background-color: #9F9F9F; color: rgb(0, 0, 0);" valign="top">#9F9F9F</td>
+        <td style="background-color: #5F5F5F; color: #FFFFFF;" valign="top">#5F5F5F</td>
+        <td style="background-color: #2F2F2F; color: #FFFFFF;" valign="top">#2F2F2F</td>
+        <td style="background-color: #000000; color: #FFFFFF;" valign="top">#000000</td>
+      </tr>
+    </tbody>
+  </table>
+Pero no todos los colores se representan igual en todos los dispositivos. Cada dispositivo trabaja en un espacio de color, una variante del RGB. Es decir, aunque en todos los dispositivos se define el amarillo con las mismas intensidades, el mismo amarillo no se verá igual en todos ellos. Al abanico de colores que se pueden representar en un espacio de color se le llama gama.
+
+En Illustrator disponemos de los modos de color RGB, y un espacio de color derivado de este, el RGB compatible con web, que solo incluye los colores que se mostrarán correctamente en una página Web.
+
+* Colores sustractivos.
+
+Mezcla primaria de colores sustractivos
+Cuando queremos dar color a un objeto sin luz propia, usamos tintas o pinturas. Se trata de sustancias diseñadas para que absorban todos los colores excepto el que queramos ver, que es reflejado y llega a nuestros ojos. Es decir, un objeto es rojo porque absorbe toda la luz que le llega, excepto la roja, que es reflejada hacia nosotros.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/colores_substractivos.gif)
+
+Normalmente partimos de un fondo blanco que refleja todos los colores. Al pintar de un color, vamos eliminando o sustrayendo el reflejo del resto de colores, dejando sólo el que queremos que se vea. Por lo que a este sistema se le denomina mezcla sustractiva de colores. En este caso, para conseguir el negro deberíamos de quitar todos los reflejos.
+
+Los colores primarios sustractivos son el <span style="color:#00CCFF; font-weight:bold">cyan</span>, <span style="color:#FF00FF;font-weight:bold">magenta</span> y <span style="color:#FFCC00; font-weight:bold">amarillo</span>. Si recuerdas los colores primarios de RGB, verás que estos son los opuestos. Por ejemplo, el cyan es el opuesto del rojo, ya que se obtiene de mezclar el verde y azul al máximo, y el rojo a 0, por lo que al aplicarlo, es el único color que absorbe.
+
+Para representar los colores sustractivos, se utiliza el modelo CMYK, cyan, magenta, yellow y key (el negro, color clave). Aunque el negro se puede obtener combinando el resto, se ha añadido para obtener un mejor resultado en impresoras, un negro más puro, y ahorrar tinta. Con este sistema, representamos cada color como cuatro cifras porcentuales, comprendidas entre 0% y 100%.
+
+En el sistema CMYK, los colores más claros y cercanos al blanco tienen valores más bajos, y requieren de menos tinta.
+
+ 
+
+* Diferencias entre CMYK y RGB
+
+Cuando en Illustrator queramos crear un gráfico que se verá en dispositivos, utilizaremos el modo RGB, y cuando el documento vaya a ser impreso utilizaremos el modo CMYK. El motivo principal es que la conversión entre estos modos de color no dan como resultado exactamente los mismos colores. Incluso hay colores de un sistema que no pueden ser representado en el otro. Por ejemplo, el azul puro (R:0, G:0, B:255) es imposible de reproducir en CMYK. Esto es debido a que CMYK y RGB tienen espacios de color distintos, que no abarcan la misma parte de los colores visibles.
+
+![Colores RGB Colores](https://www.aulaclic.es/illustrator-cc/graficos/colores_rgb.jpg) ![CMYK](https://www.aulaclic.es/illustrator-cc/graficos/colores_cmyk.jpg)  
+
+Arriba podemos ver que aunque son muy parecidos, los colores de la fotografía de la izquierda (RGB) no son exactamente iguales que los de la derecha (CMYK). Observa la parte superior del fondo. De todas formas, seguimos viendo los dos en el monitor. Lo ideal sería compararlo con una fotografía impresa y el contraste sería mayor.
+
+Como recordarás de la unidad uno, en los ajustes iniciales de un documento seleccionamos el modo de color, pero podemos convertir el modo de color de Illustrator desde el menú Archivo → Modo de color del documento.
+
+**Archivo** --> **Modo de color del documento**
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/menu_archivo_modo_color.gif)
+
+Illustrator seleccionará el modo de color dependiendo del perfil que elijamos al crear un nuevo documento.
+
