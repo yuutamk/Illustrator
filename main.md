@@ -359,3 +359,27 @@ Para definir los objetos que se bloquearan u ocultarán usamos el menú **Objeto
 ![](https://www.aulaclic.es/illustrator-cc/graficos/menu_objeto_bloquear.png)
 ![](https://www.aulaclic.es/illustrator-cc/graficos/menu_objeto_ocultar.png)
 
+## Herramientas de Dibujo<a name="herramientas-dibujo"></a>
+
+Una vez que hemos visto los elementos básicos para manipular objetos, es hora de crearlos y editarlos de diversas formas. Las herramientas de dibujo de Illustrator son bastas y con diversas opciones. El límite de lo que podemos dibujar con ellas está dado por la imaginación. Comencemos con los componentes de los propios objetos y sus propiedades, después vamos a utilizar las diversas herramientas de dibujo disponibles.
+
+### El trazado
+El dibujo vectorial se basa en **trazados**. Por tanto, al dibujar con las herramientas de Illustrator estamos creando trazados. Vamos a ver dos ejemplos de trazados muy simples.
+
+![Trazados](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_trazado.gif)
+
+Hemos dibujado el círculo con la herramienta lápiz a mano alzada, y el zig-zag con la herramienta pluma, haciendo un clic en cada vértice. El círculo forma un trazado cerrado, ya que sus extremos están unidos entre sí, mientras que el zig-zag es un trazado abierto.
+
+La diferencia entre un trazado vectorial y un trazo dibujado en un mapa de bits, como hemos mencionado, es que el trazado vectorial es un objeto, que podemos seleccionar, modificar y eliminar, y que a su vez tiene otros elementos que nos permiten hacer todo esto. Para verlo mejor, vamos a seleccionar los trazados haciendo clic sobre ellos con la herramienta Seleccion directa Selección.
+
+Cada uno de estos trazados se divide en segmentos, que pueden ser curvos o rectos. Distinguimos cada segmento porque se delimita con un cuadradito, tanto en el extremo como en la unión con otro segmento. Estos cuadraditos son los puntos de ancla, y aparecen oscuros cuando están seleccionados, y claros cuando no.
+
+El trazado se divide en segmentos
+
+En la imagen vemos que el círculo se compone de cuatro segmentos, y el zig-zag de tres.
+
+Cuando los segmentos son curvos, encontramos también líneas de dirección, con puntos de dirección en sus extremos.
+
+
+
+Para que las líneas y puntos de dirección se muestren, debemos seleccionar el segmento haciendo clic con la herramienta Selección directa Selección directa.
