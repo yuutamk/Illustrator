@@ -368,18 +368,65 @@ El dibujo vectorial se basa en **trazados**. Por tanto, al dibujar con las herra
 
 ![Trazados](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_trazado.gif)
 
-Hemos dibujado el círculo con la herramienta lápiz a mano alzada, y el zig-zag con la herramienta pluma, haciendo un clic en cada vértice. El círculo forma un trazado cerrado, ya que sus extremos están unidos entre sí, mientras que el zig-zag es un trazado abierto.
+Hemos dibujado el círculo con la herramienta **lápiz** a mano alzada, y el zig-zag con la herramienta **pluma**, haciendo un clic en cada vértice. El círculo forma un **trazado cerrado**, ya que sus extremos están unidos entre sí, mientras que el zig-zag es un **trazado abierto**.
 
-La diferencia entre un trazado vectorial y un trazo dibujado en un mapa de bits, como hemos mencionado, es que el trazado vectorial es un objeto, que podemos seleccionar, modificar y eliminar, y que a su vez tiene otros elementos que nos permiten hacer todo esto. Para verlo mejor, vamos a seleccionar los trazados haciendo clic sobre ellos con la herramienta Seleccion directa Selección.
+La diferencia entre un trazado vectorial y un trazo dibujado en un mapa de bits, como hemos mencionado, es que el trazado vectorial es un objeto, que podemos seleccionar, modificar y eliminar, y que a su vez tiene otros elementos que nos permiten hacer todo esto. Para verlo mejor, vamos a seleccionar los trazados haciendo clic sobre ellos con la herramienta **Seleccion directa** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion_directa.png" alt="Selección"  width="35" height="27">.
 
-Cada uno de estos trazados se divide en segmentos, que pueden ser curvos o rectos. Distinguimos cada segmento porque se delimita con un cuadradito, tanto en el extremo como en la unión con otro segmento. Estos cuadraditos son los puntos de ancla, y aparecen oscuros cuando están seleccionados, y claros cuando no.
+Cada uno de estos trazados se divide en **segmentos**, que pueden ser curvos o rectos. Distinguimos cada segmento porque se delimita con un cuadradito, tanto en el extremo como en la unión con otro segmento. Estos cuadraditos son los **puntos de ancla**, y aparecen oscuros cuando están seleccionados, y claros cuando no.
 
-El trazado se divide en segmentos
+![El trazado se divide en segmentos](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_segmentos_ptoancla.gif)
 
 En la imagen vemos que el círculo se compone de cuatro segmentos, y el zig-zag de tres.
 
-Cuando los segmentos son curvos, encontramos también líneas de dirección, con puntos de dirección en sus extremos.
+Cuando los segmentos son curvos, encontramos también **líneas de dirección**, con **puntos de dirección** en sus extremos.
 
-
+![](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_segmentos_direccion.gif)
 
 Para que las líneas y puntos de dirección se muestren, debemos seleccionar el segmento haciendo clic con la herramienta Selección directa Selección directa.
+
+## Puntos de ancla y líneas de dirección <a name="puntos-ancla"></a>
+
+### Puntos de ancla
+
+Existen dos tipos de punto de ancla, **puntos de vértice** y **puntos suavizados**.
+
+* Los **puntos de vértice** son cambios de dirección bruscos, formando un pico. Por ejemplo, encontramos este punto de ancla en cada esquina de un cuadrado, donde se unen sus segmentos. Los puntos de ancla suavizados pueden unir segmentos rectos, rectos y curvos sólo curvos.
+
+* Los **puntos suavizados** redondean el punto de union, dando el aspecto de que son uno sólo. Sólo se puede suavizar la unión de segmentos curvos.
+
+![Ejemplo de puntos de vértice y trazados.](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_vertices_suavizado.gif)
+
+Para hacernos una idea más clara, si pudiésemos pasar un dedo sobre el contorno del dibujo, notariamos sólo los puntos de vértices, y percibiríamos los puntos suavizados como una curva más o menos pronunciada, pero que no rompe la continuidad del trazo.
+
+Podemos convertir un punto de vértice en suavizado y viceversa con la herramienta **Convertir Punto de ancla** <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_conv_pot_ancla.png" alt="Convertir punto de ancla" width="33" height="25">,que está agrupada junto a la herramienta **Pluma**.
+
+También podemos hacer esta conversión de vértice a suavizado haciendo clic en el ancla correspondiente y luego pulsando uno de los dos botones en el panel de control cuando el ancla está seleccionada.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/convertir_anclas.png)
+
+Otro elemento que no debemos igrnorar es el control de redondeado de vértices. Aparece precisamente en los puntos de vértice y puede arrastrarse redondeándolo.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/redondear_vertices4.gif)
+
+Al arrastrar el control, el ´vertice se redondea tomando ese punto como centro. Obviamente, el segmento queda curvo y se añaden dos puntos suavizados para formarlo.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/redondear_vertices5.gif)
+
+Volveremos sobre este tema más adelante, sólo añadiremos que con un doble clic en el punto, se abre la ventana con la que podemos configurar el radio del redondeo de vértice y su forma final.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/v_vertices.png)
+
+ 
+
+Aprenderemos la importancia que tienen los puntos de vértice y suavizados cuando expliquemos cómo editarlos.
+
+Puntos y líneas de dirección.
+Hemos visto que al seleccionar un segmento curvo, o un punto de ancla que lo una, se muestran **líneas de dirección**, con un **punto de dirección** en cada uno de sus extremos. Estas líneas son tangentes a la curva.
+
+El tamaño y ángulo de estas líneas determinan el tamaño del segmento curvo.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/ejemplo_lineas_direccion.gif)
+
+En la imagen vemos dos trazados con tres puntos de ancla a la misma distancia. Lo único que se ha modificado es el ángulo y el tamaño de las líneas de dirección.
+
+En los **puntos suavizados** también encontramos líneas de dirección, pero unidas, ya que si modificamos el ángulo de una se modifica también el segmento continuo, para conservar la suavidad. En caso de que sea un punto de vértice en el extremo de una curva, podemos modificar estas líneas sin que modifique el segmento continuo.
