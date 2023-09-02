@@ -560,3 +560,323 @@ Si la utilizamos combinada con la tecla Alt, produce el efecto contrario. Es dec
 Una vez seleccionado un color, puede que queramos complementarlo con colores armónicos. En el panel Guía de color encontraremos colores relacionados con el seleccionado que nos facilitarán esta tarea.
 
 ![Panel Guía de color](https://www.aulaclic.es/illustrator-cc/graficos/panel_guia_color.png)
+
+### Temas de color
+
+A partir de la versión CC (2017) de Illustrator, tenemos un panel que nos sirve para crear grupos de colores armónicos para utilizar en nuestras ilustraciones y que se hayan optimizados para la Web. Dicho panel es Temas de color y lo abrimos desde el menú Ventana.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/ventana_temas_de_color.png)
+
+Es importante mencionar que esta ventana sólo funciona si tenemos activa una conexión a Internet y hemos iniciado sesión con nuestra cuenta de Adobe. Ahí no sólo podremos usar la rueda de colores (como veremos en el tema Volver a colorear), sino que, además, podremos explorar grupos de colores ya creados para utilizarlos en nuestros proyectos, pulsando el el botón Explorar.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/explorar_temas_de_color.png)
+
+El modo más sencillo de utilizar estos grupos de colores, ya sea creados con la rueda u obtenidos por exploración, es añadirlos a nuestro panel de muestras, utilizando el botón Añadir a muestras <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_ayiadir_a_muestras.png" alt="" width="30" height="28">, o bien la misma opción de menú de cada grupo.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/menu_anadir_a_muestras.png)
+
+Esto generará un grupo en el panel Muestras desde donde podremos utilizar el color deseado para los rellenos o trazos como ya hemos visto.
+
+### Muestras de color
+
+Las muestras son colores, motivos, degradados, grupos de colores, etc que podemos crear y guardar para utilizar en varias ocasiones. Igual que ocurre con los símbolos, las muestras se guardan en bibliotecas e Illustrator ya trae unas cuantas predefinidas.
+
+Podemos crear o seleccionar distintos tipos de muestras, los cuales se identifican por iconos distintos:
+
+* Cuatricromía <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_ico_cuatri.gif" alt="Cuatricomía" width="11" height="11" class="enlinea">. Una cuatricromía se imprime utilizando una combinación de las cuatro tintas (cyan, magenta, amarillo y negro).
+
+* Símbolo RGB <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_ico_rgb.gif" alt="RGB" width="11" height="11" class="enlinea">. El color viene definido por los colores primarios aditivos.
+
+* Cuatricromía global <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_ico_global.gif" alt="global" width="11" height="11" class="enlinea">. Las cuatricromías pueden ser globales o locales. Cuando son globales, y modificamos la muestra, el color ya aplicado se actualiza automáticamente.
+
+* Tintas planas <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_ico_tinta.gif" alt="Tinta plana" width="11" height="11" class="enlinea">. Una tinta plana es una tinta previamente mezclada a la hora de imprimir, que se puede utilizar sola o combinada con las tintas de cuatricromía.
+
+* Degradados. Un degradado es una fusión gradual de colores o tonos distintos. Pueden ser definidos como cuatricromía CMYK, colores RGB o colores de tinta plana.
+
+* Motivos. Los motivos son trazados repetidos en mosaico, formando una textura.
+
+* Ninguno <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_ico_ninguno.gif" alt="Ninguno" width="11" height="11" class="enlinea">. La muestra Ninguno elimina el trazo o el relleno de un objeto, dejándolo transparente.
+
+* Registro <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_ico_registro.gif" alt="Registro" width="11" height="11" class="enlinea">. La muestra de registro  utilizada en la impresión profesional de imprenta, hace que se imprima en todas la planchas para facilitar una alineación más precisa de las mismas.
+
+* Grupos de colores <img src="https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_ico_grupo.gif" alt="Grupo de colores" width="72" height="15" class="enlinea">. Se trata de una serie de colores globales guardados en conjunto.
+
+Podemos acceder a las muestras desde el panel Muestras:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_muestras_explicado.png)
+
+Para seleccionar cualquiera de las muestras existentes, basta con hacer clic, como hacíamos con los colores.
+
+En la biblioteca encontraremos una gran cantidad de muestras predefinidas: grupos de colores, motivos, tintas planas, etc.
+
+Podemos añadir a este panel nuevas muestras, por ejemplo el grupo de colores de un objeto en el que estemos trabajano. Para hacerlo, lo seleccionamos y pulsamos Nuevo grupo de colores. Si lo que queremos es añadir todos los colores del documento como colores globales, sin tener ningunos seleccionado, desde el menú de propiedades del panel, elegimos Añadir colores usados.
+
+Una forma más rápida de agregar un color individual al panel de Muestras es arrastrarlo directamente desde el panel de Color. Si esta acción la realizamos manteniendo pulsada la tecla Alt, la muestra se agrega como muestra de tinta plana. Una vez agregada la muestra, podemos modificar sus opciones desde la ventana Opciones de muestra haciendo doble clic sobre ella:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_opciones_muestra.png)
+
+Nombre de la muestra, es el nombre que le identificará.
+
+Tipo de color, donde podemos elegir si es una cuatricromía o tinta plana.
+
+Global convierte la muestra en una cuatricromía global.
+
+Modo de color especifica y regula el modo de color de la muestra.
+
+Añadir a mi biblioteca. La añadirá a nuestra biblioteca Creative Cloud.
+
+Si marcamos previsualizar y ya hemos aplicado la muestra a algún objeto del documento, podremos ver los cambios reflejados en él.
+
+### Pintar objetos
+
+Hasta ahora hemos visto la forma más simple de pintar un objeto: lo creamos, y elegimos un color o motivo, que se asignará al relleno o al trazo, según lo que hayamos seleccionado en el selector.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/colorear1.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/colorear2.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/colorear3.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/colorear4.gif)
+
+Cuadrado sib colorSeleccionamos el rellenoSeleccionamos un colorCuadrado coloreado
+
+Del mismo modo, aplicaríamos motivos o degradados, por ejemplo del panel muestras.
+
+Pero este sistema tiene la limitación de que el color se aplica a todo el objeto, todo su trazo o todo su relleno es tratado como una unidad. No podemos, por ejemplo, colorear varias partes del trazado de colores distintos.
+
+Por ejemplo, con la herramienta pluma, hemos dibujado una pajarita de un sólo trazo. Vemos que no podemos colorear partes de ella de forma independiente. Incluso que al tratarse de un trazado abierto, ha quedado una zona en medio que no se colorea.
+
+![pajarita](https://www.aulaclic.es/illustrator-cc/graficos/pajarita1.gif)
+
+Para solucionar esto, disponemos de la herramienta Bote de pintura interactiva <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_pintura_interactiva.png" alt="Bote d epintura interactiva" class="enlinea" width="30" height="24">. Esta herramienta nos permitirá colorear cada parte del objeto encerrada en un trazado. Lo primero que debemos de hacer es seleccionar el objeto u objetos que queramos y crear un grupo de pintura interactiva, haciendo clic sobre ellos con la herramienta Bote de pintura interactiva.
+
+![Crear grupo de pintura interactiva](https://www.aulaclic.es/illustrator-cc/graficos/pajarita2.gif)
+
+Ahora, si volvemos a pasar por encima con la herramienta, veremos la parte sobre la que estamos del objeto queda remarcada. Esto nos indica a que parte del objeto se le aplicará el color seleccionado en el Bote de pintura interactiva.
+
+![Seleccionar](https://www.aulaclic.es/illustrator-cc/graficos/pajarita3.gif) ![una secciónColorear](https://www.aulaclic.es/illustrator-cc/graficos/pajarita4.gif) ![la secciónTrazado final](https://www.aulaclic.es/illustrator-cc/graficos/pajarita5.gif)
+
+Esto también se puede hacer con los espacios resultantes de la intersección de varios objetos.
+
+![Círculos](https://www.aulaclic.es/illustrator-cc/graficos/dib_circulos_pint_interac.gif)
+
+En este caso hemos utilizado la herramienta Selección de pintura interactiva <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion_pint_interactiva.png" alt="Selección de pintura interactiva" class="enlinea" width="30" height="24">. Esta herramienta nos permite seleccionar cada trazo o relleno que se puede tratar de forma independiente dentro de un grupo de pintura interactiva, y aplicarle color, relleno, grosor del trazo, etc...
+
+También podemos pintar los contornos con bote de pintura interactiva, aunque esta opción viene deshabilitada por defecto. Podemos activarlas desde las opciones de la herramienta al hacer doble clic.
+
+![Opciones de bote de pintura interactiva](https://www.aulaclic.es/illustrator-cc/graficos/ventana_opciones_pintura_interac.png)
+
+Aquí encontramos opciones de comportamiento, como si pinta rellenos, trazos, o si se ven las muestras junto al cursor cuando elegimos un color del panel Muestras. También las opciones de apariencia, si se resaltan las áreas de pintura interactiva y cómo.
+
+El grupo de pintura interactiva se crea agrupado. Podemos editar sus objetos independientes con la herramienta Selección directa <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_seleccion_directa.gif" class="enlinea" width="24" height="21"> o entrando en el grupo aislado. Al modificar los trazados originales, cambian las zonas de pintura interactiva. Podemos añadir crear o eliminar zonas añadiendo o quitando trazos.
+
+### Degradados
+
+Un degradado es una fusión gradual de colores. Por ejemplo, un rectángulo puede tener un degradado de amarillo a rojo. Uno de sus extremos se verá amarillo, y este color se irá combinando con el rojo pasando a un amarillo anaranjado, naranja, rojizo hasta llegar al rojo en el otro extremo.
+
+![DEgradado](https://www.aulaclic.es/illustrator-cc/graficos/dib_degradado.gif)
+
+El degradado puede incluir varios colores, pasando gradualmente de uno a otro. Todo lo referente a los graduados, lo gestionamos desde el panel Degradados.
+
+![Panel degradado](https://www.aulaclic.es/illustrator-cc/graficos/panel_degradado_explicado.png)
+
+Podemos elegir entre dos tipos de degradado en le desplegable Tipo, lineal donde los colores forman líneas paralelas, o radial, con el degradado formando círculos u óvalos concéntricos.
+
+![Degradado](https://www.aulaclic.es/illustrator-cc/graficos/dib_degradado_lineal.gif)  ![linealdegradado radial](https://www.aulaclic.es/illustrator-cc/graficos/dib_degradado_radial.gif)
+
+El regulador de degradado muestra dos elementos. Unos cuadrados color en el punto donde el color se aplica puro, sin degradar todavía. Cuando seleccionamos uno de estos controles, el triángulo que tienen encima se ve de color negro. Entre estos cuadrados, en la parte superior, hay un rombo degradado que marca el punto en el que dos colores se mezclan con la misma intensidad. Podemos desplazar estos controles, para conseguir mayor aparición de un color, o que el cambio de color sea más brusco.
+
+El control de Opacidad nos permite regular la transparencia de un color. Se aplica al selector de color resaltado.
+
+El control Ángulo indica la inclinación del degradado lineal, y Ubicación la posición del degradado, mientras que proporción se hace que un degradado radial aparezca ovalado.
+
+Pero todas estas propiedades se pueden controlar mejor y de forma más natural con la herramienta Degradado <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_degradado.png" alt="Degradado" class="enlinea" width="30" height="24">.
+
+Para trabajar con degradados lineales, con el objeto seleccionado, hacemos clic en el lugar donde queramos situar el color definido más a la izquierda en el panel de Degradado, y arrastramos, con el ángulo que queramos, hasta el lugar donde queramos situar el color final del degradado. Los colores extremos no tienen por qué estar dentro del objeto.
+
+![Crear degradado](https://www.aulaclic.es/illustrator-cc/graficos/crear_degradado1.png) ![Crear degradado](https://www.aulaclic.es/illustrator-cc/graficos/crear_degradado2.png)
+
+Una vez creado, podemos editarlo para ello hacemos clic en el objeto con la herramienta Degradado seleccionada, con lo que aparecerán los controles en el objeto.
+
+![Herramienta degradado](https://www.aulaclic.es/illustrator-cc/graficos/crear_degradado3.png)
+
+En el caso de un degradado radial, se muestran más controles, ya que podemos girar el degradado, aplastarlo, o descentrarlo, haciendo un clic simple dentro de él.
+
+![Degradado radial](https://www.aulaclic.es/illustrator-cc/graficos/crear_degradado_radial1.png) ![Degradado radial transformado](https://www.aulaclic.es/illustrator-cc/graficos/crear_degradado_radial2.png)
+
+Para añadir colores al degradado, podemos arrastrarlos directamente desde el panel Color o Muestras. También podemos pulsar en la zona de los controles de color para añadir un nuevo, con el color que haya en ese punto. Para modificar uno existente, seleccionamos su control y lo modificamos en el panel de control. Si queremos cogerlo del panel Muestras, mantendremos pulsada la tecla Alt mientras presionamos sobre la muestra. Para quitar un color, lo arrastramos fuera del panel, o lo seleccionamos y pulsamos Borrar.
+
+### Malla
+
+Como veremos más adelante, en el tema de edición de objetos, la herramienta Malla <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_malla.png" alt="" width="30" height="24" class="enlinea"> nos permite modificar la forma de los objetos editando su contorno, como una malla que lo envuelve o que lo contiene. Sin embargo, también debemos añadirlo a este capítulo toda vez que esta herramienta nos permite asignar efectos de color que no podemos conseguir con los degradados.
+
+Con Malla no dibujamos objetos nuevos, debemos utilizar objetos existentes. Cuando hacemos clic en el relleno de un objeto, la herramienta genera un ancla como intersección de dos líneas que siguen la forma del objeto. Observa la forma de las líneas de malla en los siguientes objetos:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/malla.png)
+
+En cada caso tenemos un ancla en la intersección de las líneas, la cual podemos seleccionar con un clic con la misma herramienta de Malla, o bien con Selección directa y asignarle un color. Dicho color rodeará al ancla como una mancha independientemente del resto del relleno. Si movemos el ancla, el color que lo rodea lo hará también.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/malla02.png)
+
+Podemos tener más de un punto de malla sobre el objeto, cada uno con sus líneas y color propios, creando efectos de reflejo o como mezclas de colores sin necesidad de crear nuevos objetos.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/malla03.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/malla04.png)
+
+### Transparencias
+
+Podemos aplicar transparencias a nuestros objetos de Illustrator, de forma que se pueda ver a través de ellos total o parcialmente.
+
+Recuerda: Para trabajar con transparencias resulta muy útil la rejilla de transparencia (Ctrl + Mayúsculas + D).
+
+La transparencia más simple es conseguir ver a través del relleno de un objeto:
+
+![Objeto normal](https://www.aulaclic.es/illustrator-cc/graficos/ej_transparencia1.gif) ![Objeto con transparencia](https://www.aulaclic.es/illustrator-cc/graficos/ej_transparencia2.gif)
+
+Lo único que necesitamos para conseguir esto es reducir la Opacidad en el panel de Transparencia:
+
+![Panel transparencia](https://www.aulaclic.es/illustrator-cc/graficos/panel_transparencia.png)
+
+A la izquierda de la caja de Opacidad encontramos otro desplegable. En él seleccionamos cómo se muestran los objetos que se ven a través del objeto transparente, el modo de fusión.
+
+Cuando aplicamos la transparencia a objetos agrupados, todos adoptan la misma transparencia, pero los objetos del propio grupo no son visibles unos a través de otros.
+
+ 
+
+Una opción muy interesante de las transparencias, es poder crear una máscara de transparencia. La máscara no es más que otro objeto que define cómo se muestra la transparencia del que tiene debajo, lo enmascara. El grado de transparencia se define con tonos grises, siendo el negro totalmente transparente y el blanco sin transparencia.
+
+Para crear la máscara, primero dibujamos el objeto a enmascarar. En el ejemplo que veremos, hemos dibujado un cuadrado relleno con un motivo. En el panel Transparencia, vemos una miniatura del objeto seleccionado. Si hacemos doble clic a su derecha, se creará un objeto enmascarador, que por defecto oculta todo el anterior.
+
+![Panel transparencia](https://www.aulaclic.es/illustrator-cc/graficos/panel_transparencia_mascara.gif)
+
+Ahora dibujamos sobre el objeto. Lo que dibujemos con colores muy claros tendrá poca transparencia, y con colores muy oscuros será totalmente transparente.
+
+En las siguientes imágenes, a la izquierda mostramos la máscara que hemos utilizado y a la derecha el resultado.
+
+![Máscara y resultado](https://www.aulaclic.es/illustrator-cc/graficos/dib_mascara_trans.gif)
+
+Otra forma de hacerlo, que nos puede resultar más cómoda, es dibujar el objeto a enmascarar y encima el objeto enmascarador. Con ambos seleccionados, desde las opciones del panel Transparencia, pulsamos Crear máscara.
+
+La opción Recortar hace que sólo se muestre el objeto enmascarado que esté dentro de un objeto que haga de máscara, y la opción Invertir máscara cambia los colores que definen la transparencia, es decir, el negro pasaría a ser el opaco y el blanco el transparente.
+
+Para definir las transparencias hemos utilizado una escala de grises porque resulta más fácil de entender. Pero esto puede hacerse con cualquier color, incluso utilizar motivos. Y podemos crear varios objetos que formen la máscara.
+
+### Volver a colorear una ilustración
+
+Utilizando el comando Volver a colorear la ilustración (Menú Edición → Editar colores → Volver a colorear la ilustración), podemos cambiar los colores de un objeto creado por nosotros, un símbolo, los motivos predefinidos... o de toda la ilustración a la vez.
+
+Nos referimos a sustituir los colores, es decir, cada vez que aparezca determinado color, será sustituido por el que elijamos. Si lo que queremos es cambiar sólo un área determinada del objeto por otro color, pero no todas las apariciones de ese color, lo haremos como hemos visto hasta ahora.
+
+Con el objeto u objetos seleccionados, podemos acceder al diálogo para colorear ya sea desde el menú que mencionamos, o bien desde el Panel de control pulsando en el icono Volver a colorear ilustración <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_volver_a_colorear.png" alt="Volver a colorear ilustración" class="enlinea" width="26" height="26">, Llegaremos a una ventana como la siguiente:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_volver_a_colorear.png)
+
+Inicialmente lo que destaca, son dos columnas:
+
+La primera tiene los colores actuales de la ilustración, los que se están usando. En cada fila, podemos tener uno o varios colores.
+La segunda, contiene los colores nuevos que sustituirán a los de la primera. Si en la segunda columna no hay ningún color, nos indica que el color actual correspondiente no será sustituido.
+Para cambiar un color sustituto, podemos utilizar el panel inferior, que funciona como el panel Color, hacer doble clic sobre él para acceder al Selector de color. También podemos hacer doble clic en un color de la segunda columna para abrir el mismo selector.
+
+Cuando en una fila de color actual solo hay un color, este se sustituirá por el que elijamos en la fila correspondiente de colores sustitutos. Pero cuando en la fila de colores actuales tenemos varios (esto lo hacemos seleccionado los colores manteniendo pulsada la tecla Mayúsculas y pulsando el botón Combinar colores en una fila <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_combinar_colores.gif" alt="Combinar colores en una fila" class="enlinea" width="20" height="20">), pueden ser sustituídos todos por el color que elijamos, o que el color sustituto cree una escala de tonos, o diversas opciones, que podemos elegir al desplegar una pestañita que aparece cuando nos situamos sobre el color.
+
+![Colores en una fila](https://www.aulaclic.es/illustrator-cc/graficos/color_activo_combinados.gif)
+
+Para tener más control a la hora de elegir los colores, podemos pulsar en el botón Editar de la parte superior. La ventana cambiará a la siguiente...
+
+![Color activo - Editar](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_volver_a_colorear_editar.png)
+
+Cada uno de los colores tiene un controlador, que podemos desplazar sobre la rueda para variar el color.
+
+Debajo de la rueda hay un controlador que nos permite regular el brillo, o la saturación si hacemos clic sobre su icono.
+
+Para cambiar todos los colores a la vez, tenemos varios métodos:
+
+* Podemos sustituirlos por colores basados en Reglas de armonía, del desplegable superior. Estos colores se generarán a partir del color base.
+
+* Cuando el icono Enlazar / Desenlazar colores armónicos aparece enlazado, <img src="https://www.aulaclic.es/illustrator-cc/graficos/ic_enlazado.gif" alt="Enlazado" width="9" height="16" class="enlinea"> se mantiene la armonía. Si desplazamos un color por la rueda, todos se moverán a la vez.
+
+## Modificar objetos
+
+Una vez que hemos revisado las diferentes herramientas que nos permiten dibujar objetos en Illustrator, lo que sigue es aprender a modificarlos más allá de algunas ediciones simples. Es decir, hemos adelantado un poco cómo redimensionar objetos, girarlos e incluso cómo desplazar, añadir y eliminar anclas, toda vez que eran parte de las características de herramientas como Pluma y algunas otras que permiten hacer cambio mientras dibujamos. También hemos combinado objetos y hecho un poco de edición al respecto con herramienta como Shaper o el Creador de formas. Sin embargo, veremos ahora algunas herramientas cuya finalidad no es crear objetos en sí, sino modificarlos, editarlos para ponerlos a punto de acuerdo a nuestras necesidades. Veremos cómo transformar objetos con diversos métodos, pero también cómo combinarlos, recortarlos, etcétera.
+
+### Transformar
+
+Transformar un objeto consiste en mover, rotar, reflejar, cambiar la escala o distorsionar el objeto. Esto lo podemos hacer de múltiples formas, dependiendo por ejemplo de si queremos introducir un valor específico o queremos hacerlo directamente sobre el objeto.
+
+Como ya vimos, cuando seleccionamos uno o varios objetos, estos aparecen enmarcados por un cuadro, que determina el alto y ancho total del objeto u objetos. Ya sabemos que para mover la selección, solo hay que hacer clic sobre él y arrastrarlo. Si al hacerlo mantenemos pulsada la tecla Alt, en vez de moverlo creamos una copia (con la herramienta Selección).
+
+![Mover un objeto](https://www.aulaclic.es/illustrator-cc/graficos/obj_mover.gif)
+
+Hay otras transformaciones que pueden realizarse de manera básica con las propias herramientas de selección. Por ejemplo, arrastrar un ancla de la selección redimensiona el objeto u objetos, las de en medio lo hacen horizontal o verticalmente y las de las esquinas redimensionan en ambos sentidos. Si pulsamos la tecla Mayus al tiempo que arrastramos, el objeto se escala proporcionalmente.
+
+ ![](https://www.aulaclic.es/illustrator-cc/graficos/transf01.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/transf02.png)
+
+Si acercamos el puntero del ratón con la herramienta de transformación hacia una de las anclas sin tocarla realmente, el puntero del ratón se transforma y con un clic nos permite rotar el objeto, en este caso, el uso de la tecla Mayus limite el giro a múltiplos de 45°.
+
+Por su parte, la herramienta de selección directa, como ya vimos, seleccionar anclas individuales y desplazarlas, así como presentar sus líneas y puntos de dirección para modificar el objeto.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/transf03.png)
+
+El resto de transformaciones disponen de herramientas específicas que veremos a continuación. Todas estas herramientas se pueden utilizar directamente sobre uno o varios objetos seleccionados, y parten de un punto de referencia, que por defecto está en el centro del dibujo, aunque podemos moverlo a cualquier lugar como veremos. Recuerda, que con la tecla Alt creamos una copia, que en este caso se habrá modificado, dejando el original intacto.
+
+Los valores que se modifican pueden ser introducidos directamente a través del comando Transformar de cada herramienta, al que accedemos haciendo doble clic sobre la propia herramienta, o desde el menú Objeto → Transformar.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_menu_objeto_transformar.png)
+
+Independientemente de las herramientas de selección, hay herramientas que nos permiten aplicar cualquier transformación.
+
+La herramienta Transformación libre <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_transformacion_libre.png" alt="" class="enlinea" width="30" height="24"> nos permite realizar varias transformaciones con el cursor. Previamente debemos seleccionar el objeto u objetos deseados y luego pulsar en la herramienta. Al hacerlo, los objetos quedarán enmarcados en un recuadro con anclas, al tiempo que los objetos presentan las anclas de su trazo. Es decir, como si se tratara de una combinación de la herramienta de selección y la de selección directa. A su vez, cuando la herramienta está seleccionada, presenta una mini barra de herramientas en donde indicamos el tipo de transformación que deseamos realizar.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_transfor_libre.png)
+
+Las herramientas de la barra son:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/herramientas_transf_libre.png)
+
+* Restringir:
+
+Cuando restringir está seleccionado, al arrastrar algún ancla del recuadro seleccionador, los objetos se redimensionan proporcionalmente, como ocurre con la herramienta de selección y mayúsculas.
+
+* Transformación libre:
+
+Con esta opción podemos arrastrar cualquier ancla del recuadro y los objetos se redimensionan libremente, sin mantener las proporción de alto y ancho. Del mismo modo, podemos acercar el curso a un ancla y, sin tocarlo realmente, girar los objetos.
+
+* Distorsión de perspectiva:
+
+Al arrastrar un ancla con esta opción el objeto se distorsiona manteniendo un punto de fuga, dando una imagen de vista en perspectiva.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/transf04.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/transf05.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/transf06.png)
+
+* Distorsión libre:
+
+Permite arrastrar cualquier ancla del recuadro, manteniendo fijas las demás.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/transf07.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/transf08.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/transf09.png)
+
+ 
+
+Si queremos introducir los valores directamente, también podemos utilizar el Panel de control o el Panel Transformar.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_control_transformar.png)
+
+En el mismo submenú Transformar encontramos un comando muy útil, Volver a transformar (Ctrl + D), que vuelve a aplicar la última transformación seleccionada.
+
+Recuerda: Aunque tengamos seleccionada otra herramienta, siempre podemos seleccionar objetos si mantenemos la tecla Ctrl pulsada (herramienta Selección).
+
+### Modos de reflejar
+Reflejar un objeto es invertirlo con respecto a un eje, crear un objeto simétrico.
+
+Utilizando herramientas:
+
+Podemos emplear para ello la herramienta Reflejo <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_reflejo.png" alt="Reflejo" class="enlinea" width="30" height="24">. Al hacer clic, situamos el punto de referencia, que esta vez hará de eje. Si movemos el cursor arrastrando, veremos el contorno de la imagen, pero esta vez invertida.
+
+![Objeto reflejado](https://www.aulaclic.es/illustrator-cc/graficos/dib_reflejado.gif)
+
+Podemos crear el reflejo definiendo un eje. Para ello, situamos el punto de referencia en el extremo del eje imaginario, y hacemos clic en el otro extremo.
+
+Con la herramienta Transformación libre <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_transformacion_libre.png" alt="" class="enlinea" width="30" height="24"> podemos reflejar un objeto del mismo modo que lo escalamos, pero sobrepasando el controlador opuesto al que estamos estirando.
+
+![Reflejo con transformación libre](https://www.aulaclic.es/illustrator-cc/graficos/obj_reflejar.gif)
+
+Valores específicos:
+
+Como el resto de herramientas, disponemos de una ventana en la que introducir los valores directamente, a la que accedemos la hacer doble clic sobre la herramienta Reflejo:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_reflejo.png)
+
+Podemos reflejar sobre uno de los ejes Horizontal o Vertical, o introducir un Ángulo distinto.
+Si queremos que el reflejo se aplique a los motivos, deberemos marcar la opción Transformar patrones. Si el objeto no tiene patrones, esta opción aparece desvanecida.
