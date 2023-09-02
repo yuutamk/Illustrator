@@ -880,3 +880,189 @@ Como el resto de herramientas, disponemos de una ventana en la que introducir lo
 
 Podemos reflejar sobre uno de los ejes Horizontal o Vertical, o introducir un Ángulo distinto.
 Si queremos que el reflejo se aplique a los motivos, deberemos marcar la opción Transformar patrones. Si el objeto no tiene patrones, esta opción aparece desvanecida.
+
+### Combinar objetos
+
+Con Illustrator podemos combinar objetos par obtener formas más complejas. Para ello, disponemos de tres métodos básicos:
+
+* Buscatrazos.
+
+Utilizando los efectos de buscatrazos y su panel, podemos combinar los objetos de diversas formas, aunque este método no nos permite editar la interacción entre los objetos.
+
+Para utilizar estos efectos, nos apoyaremos en el panel Buscatrazos:
+
+![Panel buscatrazos](https://www.aulaclic.es/illustrator-cc/graficos/panel_buscatrazos_modosforma.png)
+
+En la primera línea encontramos los Modos de forma. Vamos a ver su efecto aplicado a dos objetos, aunque se pude aplicar a varios:
+
+* Añadir área de forma. Suma ambos objetos, englobándolos en el mismo trazado.
+
+* Restar área de forma. Quita el área del objeto inferior que queda bajo el objeto superior.
+
+* Formar intersección con áreas de formas. Muestra sólo el área del objeto inferior que queda bajo el superior.
+
+* Excluir áreas de forma superpuestas. Quita el área de los objetos que forman intersección, dejando el resto.
+OriginalAñadir área de formaRestar área de formaFormar intersección con áreas de formasExcluir áreas de forma superpuestas
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/dib_bt_original.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/dib_bt_anyadir.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/dib_bt_restar.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/dib_bt_interseccion.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/dib_bt_excluir.gif)
+
+Al aplicar estos efectos, aunque los objetos reflejan los cambios, continúan preservando sus trazos originales, lo que veremos en las formas compuestas. Para crear un único objeto definitivo, pulsaremos el botón Expandir del panel. En la siguiente imagen vemos dos objetos con intersección, y a la derecha el objeto expandido.
+
+![Objeto expandido](https://www.aulaclic.es/illustrator-cc/graficos/dib_bt_expandido.gif)
+
+Esto podemos hacerlo directamente si pulsamos la tecla Alt cuando elegimos uno de los modos de forma.
+
+Podemos volver a separar estos objetos desde el menú del panel Buscatrazos, eligiendo Soltar forma compuesta.
+
+En la parte inferior del panel encontramos los efectos Buscatrazos. Mientras que con los anteriores obteníamos un objeto resultante de la combinación, con estos podemos obtener varios, aunque agrupados. Afectan directamente a los objetos, como si pulsásemos el botón Expandir. Si queremos aplicarlos de forma que se conserven los objetos originales, debemos hacerlo desde el menú **Efecto** → **Buscatrazos**.
+
+![Panel buscatrazos](https://www.aulaclic.es/illustrator-cc/graficos/panel_buscatrazos_buscatrazos.gif)
+
+* **Dividir** superpone los objetos, y los separa en cada una de la intersecciones.
+
+* **Cortar** y **Combinar**. Al combinarlos con estos comando, desparace el contorno, y se quita la parte en la que los objetos se solapan. La diferencia entre ambos es que **Cortar** no combina objetos con el mismo relleno, y **Combinar** si lo hace.
+
+* **Recortar** funciona como el comando Cortar, pero sólo deja las partes de los objetos que estén dentro del objeto más superior en el orden de apilamiento.
+
+* **Contornear**. Deja los objetos sólo como contornos, separados en segmentos por cada punto de intersección.
+
+* **Menos fondo**. Elimina del objeto superior el área que coincida con los objetos de niveles inferiores.
+
+* Formas compuestas.
+
+Ya hemos visto que con el panel Buscatrazos podemos crear formas compuestas. Pero si en vez de combinar sólo dos objetos combinamos varios objetos simples, y utilizando las diversas formas compuestas como añadir, intersección, etc... llegaremos a crear ilustraciones cada vez más complejas de un modo sencillo.
+
+![Elementos simples](https://www.aulaclic.es/illustrator-cc/graficos/forma_compuesta1.gif) ![Forma compuesta](https://www.aulaclic.es/illustrator-cc/graficos/forma_compuesta2.gif)
+
+Para crear una forma compuesta, seleccionamos los elementos y en el menú del panel Buscatrazos elegimos Crear forma compuesta.
+
+Al hacer esto, todos los objetos se han combinado con el método Añadir y se han agrupado. Si hacemos doble clic sobre el objeto, entraremos en el modo de grupo aislado. Al seleccionar cada uno de sus componentes, en el panel Buscatrazos aparece pulsado el modo de forma seleccionado. Podemos seleccionar cualquier otro para obtener el efecto deseado.
+
+Recuerda que una vez creado, podemos pulsar el botón Expandir si queremos fusionarlo en un único objeto.
+
+* Puedes practicar lo visto con el ejercicio Crear formas compuestas.
+
+ 
+
+* Trazados compuestos.
+
+Podemos crear un trazado compuesto por varios trazados. Esto normalmente lo haremos en trazados sencillos. El resultado es parecido al de agrupar objetos, pero en este caso no podremos variar las propiedades del trazado, como el relleno, y que sean distintas en los trazados que forman el compuesto. Por ejemplo, imaginemos que creamos trazados para formar la letra "i". La formaremos con dos trazados, para el cuerpo de la letra y el punto, pero nos interesa que sea tratado como uno sólo.
+
+Para crearlo, seleccionamos los trazados y en el menú emergente del botón derecho elegimos Crear trazado compuesto.
+
+Por defecto, cuando dos trazados se superponen, forman huecos en el trazado compuesto. Lo mismo ocurre cuando creamos un único trazado pero este se cruza sobre sí mismo (trazados de autointersección). Este comportamiento podemos variarlo en el panel Atributos:
+
+![Panel atributos](https://www.aulaclic.es/illustrator-cc/graficos/panel_atributos.png)
+
+* Cuando está marcada la opción **Relleno sinuoso distinto de 0**, se rellenan todos los puntos que quedan dentro del trazado más extremo.
+
+* La opción **Relleno par-impar** hace que cuando encuentre un trazado cerrado dentro del primero lo deje vacío, rellenando el siguiente que encuentre junto a este, etc...
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/relleno_trazado_compuesto.gif)
+
+Los objetos que obtenemos al crear formas compuestas y expandirlas, o al utilizar los efectos del panel Buscatrazos son la mayoría de las veces trazados compuestos.
+
+
+### Cortar, dividir y separar objetos
+
+Hemos visto que utilizando el panel Buscatrazos, podemos combinar objetos para dividirlos y separarlos. Pero disponemos de otras herramientas que nos permiten dividir trazados.
+
+A mano alzada, podemos dividir un trazado con la herramienta Cuchilla <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_cuchilla.png" alt="Cuchilla" class="enlinea" width="30" height="24">. Al pasarla sobre un trazado seleccionado lo separa, cerrando los nuevos trazados.
+
+![Objetos divididos](https://www.aulaclic.es/illustrator-cc/graficos/dib_a_cuchilla.gif)
+
+En vez de a mano alzada, podemos utilizar otro objeto para dividir el trazado. Para ello colocaremos sobre el trazado a dividir otro que marcará las líneas de corte, y seleccionando sólo este último pulsamos en el menú **Objeto** → **Trazado** → **Dividir** objetos debajo.
+
+![Objetos divididos](https://www.aulaclic.es/illustrator-cc/graficos/dib_a_trazado_debajo.gif)
+
+Si lo que queremos es dividir un trazado abierto, o que el trazado no se vuelva a cerrar, no podemos utilizar estas herramientas. Optaremos por cortar directamente el trazado. Al cortarlo en un punto, se crean dos puntos finales de trazado, separados entre sí, aunque aparecen en el mismo sitio hasta que no los movamos.
+
+Para cortar el trazado en un lugar donde no existan puntos de ancla, utilizaremos la herramienta Tijeras <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_tijeras.png" alt="Tijeras" class="enlinea" width="30" height="24">, con la que haremos clic sobre el trazado.
+
+![Dividir y cortar](https://www.aulaclic.es/illustrator-cc/graficos/dib_cuchilla_vs_tijeras.gif)
+
+Si los cortes los vamos a hacer por puntos de ancla ya existentes, resulta más rápido y preciso seleccionar los puntos y pulsar el botón **Cortar trazado en los puntos de ancla seleccionados** <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_cortar_puntos.png" alt="Cortar trazado en los puntos de ancla seleccionados" class="enlinea" width="26" height="26"> del Panel de control.
+
+### Borrador de trazos
+
+En el mismo grupo en donde encontramos el lápiz, tenemos la Herramienta Borrador de trazados <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_borrador_trazos.png" alt="" width="31" height="25" class="enlinea">. Su función es eliminar segmentos de trazado de las formas, independientemente de la herramienta con la que se haya elaborado. La ilustración a modificar debe estar previamente seleccionada con la herramienta de selección directa. Después, simplemente, debemos seguir el trazo a eliminar.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/borrador_de_trazos01.png)
+
+Debemos tener en cuenta que al usar esta herramienta, los segmentos de trazo que queden aislados se convertirán en objetos independientes.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/borrador_de_trazos02.png)
+
+### Borrador
+La herramienta Borrador <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_borrador.png" alt="" width="31" height="25" class="enlinea"> nos permite eliminar todo o parte de las ilustraciones de manera libre.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/borrador.png)
+
+Para tener mayor precisión en el uso de la herramienta y no borremos áreas no deseadas, podemos seleccionar previamente los objetos a borrar o bien ponerlos en modo de aislamiento. De esa manera podremos pasar el borrador sobre el objeto seleccionado sin temor a afectar otros trazados.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/borrador02.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/borrador03.png) 
+
+### Unir
+
+La herramienta Unir <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_unir.png" alt="" width="30" height="24" class="enlinea">, como su nombre lo indica, une trazos que se solapan formando un solo punto de ancla, o bien, que no alcanzan a unirse por distancias cortas y sin modificar las trayectorias originales de los trazos. Para que la unión se lleve a efecto, los trazos involucrados deben estar previamente seleccionados. El trazo más allá del punto de unión se elimina.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/unir01.png) ![](https://www.aulaclic.es/illustrator-cc/graficos/unir02.png) 
+
+ 
+
+ 
+
+### Máscaras de recorte
+
+
+Puede que tengamos un objeto demasiado grande, del que sólo nos interesa mostrar una parte. Esto nos pasará sobre todo con imágenes de mapa de bits. En este caso no cortaremos el objeto, si no que colocaremos otro encima (trazado de recorte) que delimite el área del objeto inferior (objeto enmascarado) que se mostrará.
+
+El proceso es sencillo: creamos el objeto enmascarado, que puede ser de cualquier tipo, incluso un grupo de objetos, y sobre él colocamos el trazado de recorte, que ha de ser un gráfico vectorial. Con ambos seleccionados, elegimos la opción del menú **Objeto** → **Máscara de recorte** → **Crear**.
+
+![Objeto → Máscara de recorte → Crear](https://www.aulaclic.es/illustrator-cc/graficos/c_menu_objeto_mascara_recorte.png)
+
+Por ejemplo, sobre la siguiente imagen hemos creado una máscara de recorte basada en un triángulo, aunque podríamos haber utilizado una forma más compleja:
+
+![Creando la máscara](https://www.aulaclic.es/illustrator-cc/graficos/mascara_everest1.gif) ![Con la máscara aplicada](https://www.aulaclic.es/illustrator-cc/graficos/mascara_everest2.gif)
+
+Otra máscara que podríamos crear con la imagen anterior sería una con el mismo perfil de la montaña, que no dejase ver el cielo.
+
+El objeto enmascarado sigue estando completo, pero agrupado con el trazado de recorte. Por ello, la forma más simple de editarlos es hacer doble clic sobre ellos para entrar en el grupo aislado. Aquí aparecerán como objetos independientes, que podemos desplazar para mostrar otra parte del objeto o editarlos para darle nueva forma.
+
+Para deshacer la máscara de recorte, basta con seleccionar la opción del menú **Objeto** → **Mascara de recorte** → **Soltar**.
+
+### Fusión de objetos
+
+Al fusionar dos objetos, creamos copias del primero, que se va transformando suavemente hasta adquirir las características del segundo. A estas copias se les llama pasos.
+
+![Fusión](https://www.aulaclic.es/illustrator-cc/graficos/fusion.gif)
+
+En este caso, vemos que se va modificando el trazado y color del relleno del cuadrado rojo hasta convertirse en la estrella azul. Esto podemos hacerlo con la herramienta Fusión <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_fusion.png" alt="Fusión" class="enlinea" width="30" height="24">, haciendo clic en ambos elementos, o directamente con el comando del menú **Objeto** → **Fusión** → **Crear**, si hemos seleccionado previamente los elementos. Podemos concretar más, indicando que un punto del objeto inicial corresponderá con determinado punto del final, provocando la rotación de los elementos generados en los pasos. Esto lo conseguimos al seleccionar directamente los puntos de ancla con la herramienta Fusión.
+
+La fusión nos permitirá, por ejemplo, crear efectos tridimensionales y degradados con la forma de nuestro objeto, sin que tengan que ser únicamente radiales o lineales.
+
+![Degradado en estrella](https://www.aulaclic.es/illustrator-cc/graficos/fusion_degradado.gif)
+
+Esto lo conseguimos a través de las **Opciones de fusión**, del menú **Objeto** → **Fusión**.
+
+![Opciones de fusión](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_opciones_fusion.png)
+
+* **Espaciado** se refiere a la distancia entre los objetos generados para la transición. Tenemos tres opciones:
+
+  * **Suavizar color**, deja que Illustrator calcule el número de pasos para tener una transición suave.
+
+  * **Pasos especificados** nos permite introducir el número de pasos entre los objetos.
+
+  * **Distancia especificada** nos permite introducir cada cuantos píxeles queremos que se cree un paso.
+
+* En **Orientación** encontramos dos iconos. El primero, **Alinear con la página**, hace que los elementos de paso queden alineados con el eje horizontal de la página, mientras que el otro, **Alinear con el trazado**, alinea la base de los elementos de fusión con el trazado que une los dos elementos de la fusión. Esto se aprecia mejor cuando los elementos tienen la misma forma.
+
+![Fusión alineada con la página](https://www.aulaclic.es/illustrator-cc/graficos/fision_alinear_pag.gif) ![Fusión alineada con el trazo](https://www.aulaclic.es/illustrator-cc/graficos/fision_alinear_traz.gif)
+
+La fusión crea un grupo aislado. Podemos entrar en él, lo que nos permitirá seleccionar y editar los elementos originales. Si cambiamos la forma o el color de estos, los elementos de paso se adaptarán a las nuevas características. Y queda otro elemento que podemos editar, el **lomo**. El lomo es un trazo que une los elementos de los extremos, y determina por donde se crearán los elementos de paso. Por defecto se crea un trazado recto, pero podemos modificarlo para curvarlo, añadir puntos de ancla, etc.
+
+Podemos cambiar el lomo por otro trazado o por un objeto. Para ello, y sin estar en el grupo aislado, seleccionamos el objeto fusionado, y el que hará de lomo, y en el menú **Objeto** → **Fusión**, seleccionamos **Reemplazar lomo**.
+
+![Estrella](https://www.aulaclic.es/illustrator-cc/graficos/fusion_estrella.gif)
+
+Los objetos que forman parte de la fusión dependen de ésta, y no los podemos seleccionar, a no ser que pulsemos el menú **Objeto** → **Expandir**, lo que deshará la fusión pero mantendrá los pasos como objetos independientes.
