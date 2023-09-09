@@ -1066,3 +1066,27 @@ Podemos cambiar el lomo por otro trazado o por un objeto. Para ello, y sin estar
 ![Estrella](https://www.aulaclic.es/illustrator-cc/graficos/fusion_estrella.gif)
 
 Los objetos que forman parte de la fusión dependen de ésta, y no los podemos seleccionar, a no ser que pulsemos el menú **Objeto** → **Expandir**, lo que deshará la fusión pero mantendrá los pasos como objetos independientes.
+
+## Apariencia y efectos
+
+### Apariencia
+
+Hasta ahora, con Illustrator hemos creado objetos con la apariencia básica. Un objeto con apariencia básica consta únicamente de un trazado y un relleno. Pero el objeto puede tener varios rellenos o trazos. A su vez cada uno de estos elementos, puede tener atributos de color, grosor o efectos. Aparte, un objeto puede tener atributos heredados de un grupo o de una capa.
+
+Para ver qué atributos tiene un objeto, utilizaremos el panel Apariencia.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_apariencia.png)
+
+Para un objeto simple, el panel solo muestra el Trazo, Relleno y Opacidad (apariencia básica). Estos elementos siempre estarán, aunque sean de ningún color. Y a medida que creemos nuevos elementos, el panel irá creciendo:
+
+Para crear un nuevo trazo o relleno igual que uno de los existentes, lo seleccionamos (haciendo clic), y pulsamos el botón Duplicar elemento seleccionado <img src="https://www.aulaclic.es/illustrator-cc/graficos/ico_panel_nuevo.png" alt="Duplicar" class="enlinea" width="26" height="21">. También podemos utilizar los iconos Añadir nuevo relleno <img src="https://www.aulaclic.es/illustrator-cc/graficos/ico_panel_add_relleno.png" alt="Añadir relleno" width="26" height="21" class="enlinea"> y Añadir nuevo trazo <img src="https://www.aulaclic.es/illustrator-cc/graficos/ico_panel_add_border.png" alt="Añadir nuevo trazo" width="26" height="21" class="enlinea"> directamente del menú del panel. El botón Duplicar elemento seleccionado <img src="https://www.aulaclic.es/illustrator-cc/graficos/ico_panel_nuevo.png" alt="Duplicar" class="enlinea" width="26" height="21"> nos sirve también para duplicar otros elementos, como los efectos.
+
+Una vez creado el elemento, lo seleccionamos y cambiamos sus atributos, como el color, o le aplicamos un efecto desde el icono <img src="https://www.aulaclic.es/illustrator-cc/graficos/ico_panel_apa_fx.png" alt="" width="26" height="21" class="enlinea"> como veremos más adelante.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_apariencia_explicado.png)
+
+El orden de los elementos en el panel es importante, y se comporta como el orden de apilamiento. Por ejemplo, si tenemos dos rellenos de colores distintos, sin ningún efecto, quedarán superpuestos y se verá sólo el que esté más arriba.
+
+Para quitar un elemento, lo seleccionamos y pulsamos el icono Borrar elemento seleccionado .
+
+También podemos cambiar el grosor del borde de cualquier trazo y el color de trazos y rellenos haciendo clic sobre estos valores. Al hacer clic sobre el color, accedemos al panel Muestras. Si preferimos acceder al panel Color, debemos de hacer Shift + clic.
