@@ -1087,6 +1087,189 @@ Una vez creado el elemento, lo seleccionamos y cambiamos sus atributos, como el 
 
 El orden de los elementos en el panel es importante, y se comporta como el orden de apilamiento. Por ejemplo, si tenemos dos rellenos de colores distintos, sin ningún efecto, quedarán superpuestos y se verá sólo el que esté más arriba.
 
-Para quitar un elemento, lo seleccionamos y pulsamos el icono Borrar elemento seleccionado .
+Para quitar un elemento, lo seleccionamos y pulsamos el icono Borrar elemento seleccionado <img src="https://www.aulaclic.es/illustrator-cc/graficos/ico_panel_borrar_seleccionado.png" alt="" width="26" height="21" class="enlinea">.
 
 También podemos cambiar el grosor del borde de cualquier trazo y el color de trazos y rellenos haciendo clic sobre estos valores. Al hacer clic sobre el color, accedemos al panel Muestras. Si preferimos acceder al panel Color, debemos de hacer Shift + clic.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_apariencia_cambiarcolor.png)
+
+Si lo preferimos, podemos seleccionar el elemento y utilizar los paneles Color, Trazo, Muestras, Guía de color, etc...
+
+Para quitar la apariencia tenemos dos opciones: podemos Reducir a apariencia básica desde el menú del panel, elimina los elementos adicionales, dejando sólo el trazo y relleno original. Si pulsamos Borrar apariencia, el objeto quedará sólo con un trazo y un relleno, pero los dos como ninguno <img src="https://www.aulaclic.es/illustrator-cc/graficos/ninguno.gif" alt="Ninguno" class="enlinea" width="10" height="10">.
+
+###  Efectos 3D
+
+Dentro de los Efecto de Illustrator, encontramos los Efectos 3D.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/menu_efectos_3d.png)
+
+El efecto Rotar nos permite girar un objeto en tres dimensiones, mientras que los efectos de Extrusión y biselado y Girar nos permite crear objetos tridimensionales.
+
+Al aplicar cualquiera de estos efectos, accedemos a una ventana que nos permite controlar la posición y la superficie. Controles de los efectos 3D
+
+---
+Al elegir cualquiera de los efectos 3D, llegamos a una ventana muy similar, con algunos controles comunes. Vamos a verlos:
+
+**Posición**
+
+La parte superior de la ventana nos permite controlar la posición del objeto.
+
+Posición del objeto 3D
+En el desplegable Posición encontramos una serie de posiciones predefinidas.
+
+El cubo (cubo de seguimiento) nos permite girar libremente el objeto arrastrando sus lados. La cara azul corresponde a la parte frontal del objeto. La parte superior e inferior es color gris claro, y los laterales gris oscuro.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/ventana_3d_posicion.png)
+
+Pensemos en los tres ejes que definen un objeto tridimensional: el eje horizontal (x), el vertical (y) y la profundidad (z). Podemos girar el objeto con respecto a cada uno de estos ejes: para hacerlo sobre el eje z, arrastraremos en algún punto alrededor del cubo pero sin tocarlo. Si arrastramos el cubo mientras pulsamos Mayúsculas, hacia arriba o hacia abajo, giraremos sobre los ejes x e y.
+
+Para rotar el objeto sobre sus propios ejes, situaremos el cursor sobre la arista que queramos girar, y cuando cambie de color arrastraremos.
+
+Lo que conseguimos al girar el objeto es definir los valores de rotación sobre los ejes del documento. Estos aparecen en las cajas de texto de la parte derecha.
+
+La Perspectiva del objeto, disminuye su tamaño en la profundidad. Al alejarse de la cara frontal, el objeto va haciéndose cada vez más pequeño, dando efecto de lejanía. 0º indica un objeto sin perspectiva, siendo la máxima de 160º.
+
+**Difuminado de superficie**
+
+En la parte inferior de la ventana podremos elegir cómo se muestra la superficie del objeto, y dependiendo de las opciones que escojamos, cóomo se comporta la luz al incidir sobre él (si no se muestran estas opciones, pulsar el botón Más opciones):
+
+Superficie
+Lo primero será elegir la superficie, entre las cuatro posibles:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_3d_superficie.png)
+
+* Malla metálica. Muestra sólo el contorno del objeto, sin rellenar sus caras. No disponible para el efecto rotación 3D.
+* Sin difuminado. Rellena las caras del objeto, pero con el mismo color que el objeto original, sin brillos que den aspecto de volumen.
+* Difuminado difuso. Refleja la luz de forma uniforme, quedando el objeto como si fuese un degradado, con aspecto de volumen.
+* Difuminado plástico. El objeto refleja la luz de forma más intesa en algunos puntos, como si fuese brillante. Tampoco está disponible para el efecto rotación 3D.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/3d_superficie1.gif)![](https://www.aulaclic.es/illustrator-cc/graficos/3d_superficie2.gif)
+
+En el caso de haber elegido un difuminado, encontramos una serie de opciones de configuración sobre la luz que incide en el objeto.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/esfera_iluminacion.png)
+
+* Luz ambiente es la luz general que baña todo el objeto. Cuanto menor sea la luz, mayor será la diferencia entre claro y oscuro. Si la luz es muy alta, el color puede ellegar a mostrarse uniforme.
+* Intensidad de resaltado (sólo Plástico). Cuanto mayor sea, el punto sobre el que incide la luz se mostrará mas brillante. Si lo reducimos, el objeto parecerá cada vez más mate y menos brillante.
+* Tamaño de resaltado (sólo Plástico). Cuanto mayor sea, el reflejo de la luz será mayor.
+* Pasos de fusión. El difuminado se crea utilizando una fusión, y aquí podemos especificar el número de pasos intermedios. Cuantos más pasos, será más suave, pero se generarán más trazados.
+Para controlar la zona donde incide la luz, tenemos otro control en la parte inferior izquierda, la esfera de iluminación:
+
+
+La posición de cada luz aparece como un círculo de relleno blanco cuando esta delante del o objeto, y negro cuando está detrás. Podemos desplazar una luz arrastrándola por la esfera. Para moverla detrás o delante podemos pulsar el primer botón de la izquierda. Con el botón Nueva luz, añadimos focos de luz a la esfera, mientras que con el botón Eliminar luz, borramos la seleccionada.
+
+Para cada luz, podemos definir un valor en el control Intensidad.
+
+Por último el control Color de difuminado, nos permite dejar el difuminado en Negro, Ninguno y que no añada un color, o elegir un color marcando A medida. Este color se refiere al que se utiliza para dar el aspecto sombreado en las zonas sin luz.
+
+ 
+
+Nota: Dependiendo de la complejidad del objeto, del efecto aplicado (sobre todo si es el de giro 3D) y la potencia del equipo, puede resultar costoso generar el objeto tridimensional. Por eso, si tenemos activa la previsualización y vamos a realizar varios cambios, es mejor desactivarla, hacer los cambios, y volverla a activar para que no se genere el objeto cada vez que variemos un parámetro.
+ 
+---
+### Extrusión y biselado.
+
+Este efecto nos permite dar profundidad a un objeto.
+
+![Texto oroginal](https://www.aulaclic.es/illustrator-cc/graficos/txt_ac_3d_no.gif) ![Texto 3D](https://www.aulaclic.es/illustrator-cc/graficos/txt_ac_3d_si.gif)
+
+Podemos aplicar este efecto desde le menú Efecto → 3D → Extrusión y biselado.... Llegamos a la ventana con los controles que ya hemos explicado en el tema básico anterior. En la parte central aparecen los parámetros específicos para este efecto:
+
+![Extrusión y biselado](https://www.aulaclic.es/illustrator-cc/graficos/c_3d_extrusion.png)
+
+Las propiedades de extrusión son la Profundidad de extrusión, y el Remate, que puede ser de Apariencia sólida <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_remate_solido.gif" alt="Apariencia sólida" class="enlinea" width="24" height="20"> o Apariencia hueca <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_remate_hueco.gif" alt="Apariencia hueca" class="enlinea" width="24" height="20">.
+
+![Extrusión](https://www.aulaclic.es/illustrator-cc/graficos/extrusion.gif)
+
+La extrusión puede ser plana, o darle un bisel, seleccionándolo del panel Bisel. El bisel es un relieve más o menos complejo. Podemos definir la Altura máxima de este relieve. Y también encontramos dos botones, para decidir si el bisel va hacia fuera <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_bisel_fuera.gif" alt="Bisel hacia fuera" width="24" height="20" class="enlinea">, y se suma al tamaño del objeto, o si va hacia dentro <img src="https://www.aulaclic.es/illustrator-cc/graficos/b_bisel_dentro.gif" alt="Biseal hacia dentro" width="24" height="20" class="enlinea">.
+
+![Bisel](https://www.aulaclic.es/illustrator-cc/graficos/bisel.gif)
+
+### Girar.
+
+El efecto girar es el que nos permite crear los objetos tridimensionales más complejos. Gira el objeto original sobre uno de sus lados para crear el objeto. Es decir, si giramos medio círculo, obtenemos una esfera.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/3d_girar_antes.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/3d_girar.gif)
+
+Podemos aplicar este efecto desde le menú Efecto → 3D → Girar.... Las opciones específicas de Girar son las siguientes:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_3d_girar.png)
+
+* Ángulo. Determina cuantos grados se gira, donde 360º es el giro completo.
+* En Desplazamiento, podemos marcar la distancia a la que se establece el eje de giro, desde el Borde izquierdo o desde el Borde derecho.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/3d_ejemplo_giro1.gif) ![](https://www.aulaclic.es/illustrator-cc/graficos/3d_ejemplo_giro2.gif)
+
+ 
+
+### Rotar.
+
+Este efecto nos permite rotar los objetos en tres dimensiones.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/3d_ejemplo_rotar.gif)
+
+Podemos aplicar este efecto desde le menú Efecto → 3D → Rotar.... Este efecto no tiene opciones específicas, pero nos permite utilizar el cubo de seguimiento para rotar el objeto.
+
+### Colocar Ilustraciones en objetos 3D.
+
+Al crear un objeto 3D, por extrusión y biselado o por giro, el objeto pasa a tener varias caras. Por ejemplo, si aplicamos extrusión a un círculo, obtenemos un cilindro, con una cara superior, una cara en la base, y otra en el cuerpo del cilindro. En el caso de crearlo usando el giro, cada segmento del trazado original será una cara del objeto tridimensional.
+
+A cada una de estas caras, podemos asignarle una ilustración, que se ajustará a la forma del objeto.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/dado.gif)
+
+Las ilustraciones que vayamos a colocar, debemos tenerlas en el panel de Símbolos. Es decir, si es un objeto del documento, lo arrastraremos al panel, y si es un símbolo de la biblioteca, lo seleccionaremos para que aparezca en el panel. Sólo podremos colocar un símbolo por cara.
+
+Cuando tengamos preparados los símbolos, en la ventana que definimos los parámetros del objeto 3D, pulsamos el botón Mapear ilustración, para llegar a la ventana Mapear ilustración:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_mapear_ilustracion.png)
+
+* Utilizando los controles de Superficie, nos situamos sobre la cara que queramos. En el objeto, se irán resaltando en rojo las aristas de la cara en que estamos.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/aristas_cara.png)
+
+* Después, en Símbolo, seleccionamos la ilustración a colocar.
+* En la parte central, movemos y redimensionamos el símbolo para ajustarlo a la cara, teniendo en cuenta que las partes claras corresponden con la superficie visible del objeto, y las oscuras con las ocultas. El botón Cambiar escala para ajustar, redimensiona la ilustración para que ocupe toda la superficie de la cara.
+* Para eliminar el símbolo de la cara, pulsamos Borrar. Si pulsamos Borrar todo, limpiamos el objeto quitando todas las ilustraciones.
+* Tenemos dos opciones, Difuminar ilustración hace que el difuminado se aplique también al símbolo. Si no lo marcamos, la ilustración aparecerá sin tonos oscurecidos ni claro.
+* La opción Geometría invisible hace que se oculte la superficie y se muestre sólo la ilustración. Es como si utilizásemos el objeto 3D como una envolvente.
+
+
+### Estilos gráficos
+
+
+Al definir nuestro objeto con sus trazos, rellenos y efectos, hemos creado un estilo. Este estilo, se aplicará al siguiente objeto que creemos, si así lo hemos seleccionado en el panel Apariencia. Pero también podemos guardarlo como un Estilo gráfico, de modo que cuando queramos aplicarlo a otro objeto solo tengamos que seleccionarlo. Esto además hará que si modificamos el estilo, todos los objetos a los que se lo hayamos aplicado reflejarán el cambio.
+
+Todo lo referente a los estilos gráficos, los gestionamos desde el panel Estilos gráficos.
+
+![panel Estilos Gráficos](https://www.aulaclic.es/illustrator-cc/graficos/panel_estilos_graficos2.png)
+
+Para guardar el estilo que estamos utilizando en el panel, simplemente arrastramos el objeto sobre el panel, o seleccionamos un objeto que tenga el estilo y pulsamos el botón Nuevo estilo <img src="https://www.aulaclic.es/illustrator-cc/graficos/ico_panel_nuevo.png" alt="Nuevo estilo" class="enlinea" width="26" height="21">. Si al pulsar el botón, también estamos pulsando la tecla Alt, podremos darle un nombre.
+
+Podemos combinar varios estilos para crear uno nuevo. Para hacerlo, los seleccionamos manteniendo pulsada la tecla Ctrl. Después, desde el menú del panel elegimos Combinar estilos, e introducimos un nombre.
+
+Para aplicar un estilo, seleccionamos un objeto o grupo, y hacemos clic sobre el estilo que queramos del panel. No se comporta igual si aplicamos el estilo a objetos independientes a un grupo. Esto dependerá del estilo.
+
+![Grupo con estilo](https://www.aulaclic.es/illustrator-cc/graficos/estilos_graficos_ejemplo.gif)
+
+En caso de que el grupo no muestre el relleno u otros efectos, cambiaremos el orden del elemento Contenido del panel Apariencia del grupo.
+
+Una vez aplicado, el estilo del objeto queda enlazado con el estilo gráficos. Para modificarlo, podemos cambiar el estilo del objeto y arrastrarlo sobre el estilo gráfico del panel, mientras mantenemos pulsada la tecla Alt.
+
+Al modificarlo, el cambio se reflejará en todos los objetos a los que se haya aplicado el estilo. Si queremos evitar esto en algún objeto, debemos romper el enlace al estilo, seleccionando el objeto y pulsando el botón Romper enlace a estilo gráfico del Panel.
+
+Si pulsamos el botón Borrar estilo gráfico, eliminamos el estilo del panel, y todos los objetos que lo tengan mantienen las propiedades, aunque sin enlazar con ningún estilo.
+
+ 
+
+Como ocurría con las muestras, símbolos y pinceles, también tenemos una Biblioteca de Estilos gráficos, haciendo a la que accedemos por el botón que tiene en la parte inferior izquierda.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/panel_estilos_graficos_biblio.png)
+
+Clasificados en categorías, encontraremos estilos predefinidos muy atractivos.
+
+Los estilos que hayamos creado, están disponibles para el documento en el que los hemos creado. Si queremos acceder a ellos, debemos pulsar en Abrir biblioteca... en el menú de la Biblioteca o del panel, y elegir el archivo en el que está el estilo.
+
+Si hemos definido unos cuantos estilos gráficos, y planeamos utilizarlos en futuros documentos, nos será más cómodo pulsar en Guardar estilos gráficos..., lo que creará una nueva biblioteca con los estilos que haya en el panel, por lo que debemos borrar los que no nos interesen. Si al guardar el archivo, lo hacemos en la ubicación que aparece por defecto, aparecerá con el resto de bibliotecas la próxima vez que iniciemos el programa.
+
+ 
