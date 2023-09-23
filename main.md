@@ -30,6 +30,7 @@
     - [Ocultar y bloquear objetos](#ocultar-bloq-objetos)
 
     </details>
+* [Apariencia y efectos](Apariencia-efectos)
 
 </details>
 
@@ -1067,9 +1068,9 @@ Podemos cambiar el lomo por otro trazado o por un objeto. Para ello, y sin estar
 
 Los objetos que forman parte de la fusión dependen de ésta, y no los podemos seleccionar, a no ser que pulsemos el menú **Objeto** → **Expandir**, lo que deshará la fusión pero mantendrá los pasos como objetos independientes.
 
-## Apariencia y efectos
+## Apariencia y efectos <a name="Apariencia-efectos"></a>
 
-### Apariencia
+### Apariencia <a name="Apariencia"></a>
 
 Hasta ahora, con Illustrator hemos creado objetos con la apariencia básica. Un objeto con apariencia básica consta únicamente de un trazado y un relleno. Pero el objeto puede tener varios rellenos o trazos. A su vez cada uno de estos elementos, puede tener atributos de color, grosor o efectos. Aparte, un objeto puede tener atributos heredados de un grupo o de una capa.
 
