@@ -1273,4 +1273,87 @@ Los estilos que hayamos creado, están disponibles para el documento en el que l
 
 Si hemos definido unos cuantos estilos gráficos, y planeamos utilizarlos en futuros documentos, nos será más cómodo pulsar en Guardar estilos gráficos..., lo que creará una nueva biblioteca con los estilos que haya en el panel, por lo que debemos borrar los que no nos interesen. Si al guardar el archivo, lo hacemos en la ubicación que aparece por defecto, aparecerá con el resto de bibliotecas la próxima vez que iniciemos el programa.
 
- 
+### Formatos nativos
+
+
+Hemos insistido en diversas ocasiones que Illustrator es un programa para crear dibujos vectoriales, en contraste con programas como Photoshop que nos permiten editar iimágenes de mapas de bits. Esto implica que cuando grabamos un archivo de Illustrator en su propio formato (AI), lo que estamos haciendo es crear un archivo vectorial con toda la información y características de la ilustración, como los trazados, el color de relleno, los degradados, las transparencias, el número de mesas de trabajo, etcétera.
+
+Sin embargo, el formato AI no es el único formato vectorial que podemos utilizar con Illustrator. Además de AI, tenemos los formatos PDF (muy común para crear documentos), EPS y SVG. Estos formatos, aunque con sus diferencias y diversas opciones, reciben el nombre de formatos nativos, ya que conservan todas las características de los archivos de Illustrator y, por tanto, podemos abrirlos con el programa para editarlos sin que pierdan características como el número de mesas de trabajo, capas, etcétera.
+
+Para grabar en cualquiera de los formatos nativos, podemos utilizar el menú Archivo y luego la opción Guardar, Guardar cómo o Guardar una copia. En cualquiera de estos casos se abre el cuadro de diálogo donde damos nombre al archivo y especificamos la carpeta donde se va a grabar, pero también elegimos el formato nativo correspondiente desplegando la lista de Tipo.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/nativo-tipo.gif)
+
+Aún así, a pesar de tratarse de formatos nativos, debemos activar algunas opciones cuando grabamos en algunos de estos formatos. Por ejemplo, en PDF y SVG debemos activar la casilla Conservar capacidades de edición de Illustrator en el cuadro de diálogo para que conserve los elementos mencionados.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/nativos1.gif)
+
+Por tanto, revisemos las opciones de grabación en formatos nativos de Illustrator para que podamos aprovechar sus capacidades.
+
+### Formato AI y versiones anteriores de Illustrator.
+
+Cuando escribimos el nombre del archivo y seleccionamos el propio formato .ai, aparece el siguiente cuadro donde podemos indicar otras opciones si es necesario:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/opciones_illustrator01.gif)
+
+En la primera lista podemos seleccionar alguna versión anterior de Illustrator que podemos llegar a requerir por compatibilidad con otros usuarios, aunque es probable que algunas propiedades o datos de la ilustración no estén soportados en versiones anteriores y se pierdan al grabar.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/versiones.gif)
+
+Las incompatibilidades con la ilustración siempre se muestran en la sección Avisos de la propia ventana, en la parte inferior.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/avisos.gif)
+
+
+## Exportación a otros formatos
+
+Con la opción de menú Archivo → Exportar → Exportar como..., Illustrator nos ofrece una gama diversa de formatos para exportar nuestra ilustración. Algunos de estos formatos son mapas de bits (como los archivos BMP) y otros son dibujo de vectores. Hay incluso algunos casos en donde pueden combinarse dibujos de vectores con partes rasterizadas. Sin embargo, en ninguno de estos casos se trata de formatos nativos. Esto significa básicamente dos cosas: Uno, que algunas cualidades de la imagen, como las transparencias, las características del trazado o el contenido que no se encuentre en la mesa de trabajo pueden perderse en la exportación. Y, dos, que el archivo no puede volver a editarse en Illustrator con todas sus caracteristicas abriéndolo desde ese formato. Por ello,lo hemos mencionado, es importante mantener siempre una copia de nuestro trabajo en formato .ai.
+
+Cuando usamos el menú, el cuadro de diálogo Exportar nos presenta la siguiente lista de tipos de archivo soportados.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_exportacion_tipos.gif)
+
+Cada formato abre cuadros de opciones cuyo contenido depende del formato en sí. En algunos casos, se trata sólo de unas pocas opciones sencillas de comprender, como la resolución de un mapa de bits o su modelo de color. En otros casos, si se van a mantener las capas o cuál es el modelo de color predeterminado. Por tanto, en cada caso, debemos prestar atención a las distintas opciones que se abren para obtener el resultado deseado de la exportación.
+
+### Empaquetado de archivos
+Supongamos que tenemos una ilustración que no sólo contiene los trazados que hayamos creado, sino además un conjunto de imágenes enlazadas, algunas como mapas de bits y otras como ilustraciones vectoriales y, además, diversos objetos de texto con fuentes distintas. Si grabamos el archivo con formato .ai y, por ejemplo, lo enviamos por correo electrónico, al momento en que el archivo se abra en otro ordenador, mostrará los trazados que contiene, no así las imágenes enlazadas, ni las fuentes que no estén instaladas en dicho ordenador.
+
+Para evitar estos problemas, Illustrator tiene la opción de menú Archivo → Empaquetar... Que crea una carpeta con todos los archivos utilizados, tanto los enlazados como las fuentes (si la licencia de la fuente lo permite), así como el archivo .ai correspondiente y un informe del empaquetado en formato TXT que se genera automáticamente.
+
+Cuando seleccionamos el menú, se abre su ventana de opciones:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_opciones_empaquetar.gif)
+
+Debemos indicar la ubicación donde se creará la carpeta y su nombre, además de las siguientes opciones:
+
+* Copiar enlaces. Copia los archivos enlazados a la carpeta.
+
+* Recopilar enlaces en otra carpeta. Crea una subcarpeta para los enlaces. De no estar activa esta opción, los archivos enlazados se guardan en la misma carpeta que el archivo .ai.
+
+* Volver a vincular los archivos con el documento. Indica en el archivo .ai la nueva ubicación para las imágenes enlazadas, de lo contrario la dirección del enlace mantiene la ubicación original.
+
+* Copiar fuentes usadas en el documento. Copia los archivos de fuentes necesarios.
+
+* Crear informe. Crea una descripción en .txt de los archivos añadidos a la carpeta.
+
+
+### Documentos para imprimir
+Ya hemos visto que Illustrator ofrece configuraciones distintas dependiendo de si nuestro objetivo es imprimir un documento o crear un gráfico para la web. Y esto no es por capricho, influye en la calidad del resultado. Estas son algunas cosas que deberíamos de tener en cuenta si estamos creando un documento para imprimir:
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/impresora.gif)
+
+Comenzar con un perfil de documento para imprimir. Esto auto seleccionará todas las opciones de manera óptima.
+Utilizar el modo de color CMYK.
+Si vamos a rasterizar objetos, elegir una resolución a partir de 240ppp (dependiendo del tipo de impresora y la calidad deseada, no será igual si vamos a imprimir en una impresora de escritorio de baja resolución o si utilizamos una imprenta profesional).
+Calibrar el monitor. La mayoría de los monitores no están correctamente calibrados, por lo que los colores que se muestra en pantalla no serán exactamente lo que se imprimirá. Los profesionales usan aparatos que les ayudan a calibrar mejor el monitor.
+Por defecto, en documentos de una página, se imprimirá la ilustración contenida en las Mesas de trabajo.
+
+Otra cuestión a tener en cuenta es si queremos imprimir toda la ilustración o sólo algunas partes. Con las opciones por defecto, las capas no visibles de la ilustración no se imprimen. Si queremos que una capa, aunque si sea visible, no se imprima, podemos desmarcar la opción Imprimir de su ventana de opciones, a la que accedemos al hacer doble clic sobre la capa.
+
+![](https://www.aulaclic.es/illustrator-cc/graficos/c_ventana_opciones_capa.gif)
+
+Si queremos imprimir sólo alguna área concreta de la ilustración, podemos enmarcarla en una mesa de trabajo, con la herramienta Mesa de trabajo <img src="https://www.aulaclic.es/illustrator-cc/graficos/h_mesa_trabajo.gif" alt="" width="28" height="21" class="enlinea">, y en las opciones de impresión elegir que sólo se imprima esta parte.
+
+Una vez que hayamos terminado el documento, accederemos a las opciones de impresión desde el menú Archivo → Imprimir.
+
+Al imprimir un documento, podemos generar una copia impresa en papel, pero también podemos imprimir a otro tipo de archivos, como pdf o xps.
